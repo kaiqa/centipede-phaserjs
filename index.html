@@ -47,6 +47,7 @@ let textScore;
 let score = 0;
 
 function preload() {
+    this.load.image('startButton', 'assets/startButton.png');
     this.load.image('player', 'assets/player.png');
     this.load.image('centipede', 'assets/centipede.png');
     this.load.image('bullet', 'assets/bullet.png');
@@ -60,6 +61,7 @@ function preload() {
 }
 
 function create() {
+
     let score = 0;
     textScore = this.add.text(50, 10, 'Score: 0', {
         font: '24px Arial',
@@ -325,12 +327,32 @@ function createRandomMushrooms(count) {
     const mushroomWidth = 30; // Adjust this based on your mushroom image size
     const spacing = mushroomWidth * 1;
 
-    for (let i = 0; i < count; i++) {
+    // for (let i = 0; i < count; i++) {
+    //     const x = Phaser.Math.Between(spacing, game.config.width - spacing);
+    //     const y = Phaser.Math.Between(spacing, game.config.height - spacing);      
+    //     const mushroom = mushrooms.create(x, y, 'mushroom').setScale(0.1);     
+    //     //  createMushroom(x, y);
+    // }
+
+    let currentIndex = 0;
+    let delayBetween = 100;
+
+function createNextMushroom() {
+    if (currentIndex < count) {
         const x = Phaser.Math.Between(spacing, game.config.width - spacing);
         const y = Phaser.Math.Between(spacing, game.config.height - spacing);
 
-        const mushroom = mushrooms.create(x, y, 'mushroom').setScale(0.1);
+        createMushroom(x, y);
+     //   mushroomTouchedByPlayerSound.play();
+        currentIndex++;
+        // Recursive call with a delay
+        setTimeout(createNextMushroom, delayBetween);
     }
+}
+
+// Start the sequence
+createNextMushroom();
+
 }
 
 function centipedeHitMushroom(centipedeSegment, mushroom) {
@@ -420,7 +442,11 @@ function moveSpider() {
 
 function createMushroom(x, y) {
     const mushroom = mushrooms.create(x, y, 'mushroom').setScale(0.1);
+   
+    mushroomTouchedByPlayerSound.play().this;
+
 }
+
 </script>
 </body>
 </html>
