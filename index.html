@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Centipede Game with Phaser</title>
     <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+
 </head>
 <style>
     body {
@@ -63,24 +68,25 @@ function preload() {
 function create() {
 
     let score = 0;
-    textScore = this.add.text(50, 10, 'Score: 0', {
-        font: '24px Arial',
-        fill: '#00ff00'
-    });
     // Create a background tile sprite and set its scroll factor to create a repeating pattern
     const background = this.add.tileSprite(400, 300, 800, 600, 'background');
     background.setScrollFactor(0); // Fix the background position
 
     // UI Text
     textScore = this.add.text(50, 10, 'Score: 0', {
-        font: '24px Arial',
+        fontFamily: 'VT323',
+        fontSize: '24px',
         fill: '#00ff00'
     });
+    textScore.setFont('VT323');  // Use the font-family specified in @font-face
+    textScore.setFontSize(32);   // Set the font size
+    textScore.setColor('#00ff00');  // Set the font color
+    
 
     player = this.physics.add.sprite(400, 500, 'player').setScale(0.5);
 
     // Create spider
-    spider = this.physics.add.sprite(400, 500, 'spider').setScale(0.5);
+    spider = this.physics.add.sprite(500, 700, 'spider').setScale(0.5);
     spider.setVelocityX(100);
 
     centipede = this.physics.add.group();
@@ -92,9 +98,7 @@ function create() {
         active: false,
         visible: false
     });
-
     this.physics.world.setBoundsCollision(true, true, true, false);
-
     // out off bounce
     bullets.children.iterate(function(bullet) {
         bullet.on('outofbounds', function() {
@@ -116,8 +120,11 @@ function create() {
 
     this.physics.add.collider(centipede, bullets, bulletHitCentipede);
     this.physics.add.collider(bullets, mushrooms, bulletHitMushroom);
+    this.physics.add.collider(bullets, spider, bulletHitSpider);
     this.physics.add.overlap(centipede, mushrooms, centipedeHitMushroom);
     this.physics.add.overlap(player, centipede, playerHitCentipede);
+//    this.physics.add.overlap(centipede, mushrooms, centipedeHitMushroom);
+
 
     shootSound = this.sound.add('shootSound');
     destroySound = this.sound.add('destroySound');
@@ -179,10 +186,7 @@ function create() {
         }
     });
     createRandomMushrooms(40);
-
-    this.physics.add.overlap(centipede, mushrooms, centipedeHitMushroom);
-
-
+  
 };
 
 function fireBullet() {
@@ -213,10 +217,11 @@ function bulletHitSpider(bullet, spider) {
 function update() {
 
     // Update spider movement and behavior
-    moveSpider();
-    // Check for bullet-spider collision
-    this.physics.overlap(bullets, spider, this.bulletHitSpider);
-
+    if (spider) {
+      moveSpider();  
+    }
+    
+ 
     const pointer = this.input.activePointer;
 
     if (pointer.isDown) {
@@ -269,7 +274,6 @@ function nextLevel() {
     // Increase the difficulty or reset the game state for the next level
     // You can modify this function based on your game design
     // For simplicity, we'll just create a new centipede for the next level
-
     // Adjust the speed of existing centipedes (increase the difficulty)
     centipede.children.iterate(function(segment) {
         if (segment.active) {
@@ -280,7 +284,6 @@ function nextLevel() {
 
     createCentipede();
     createRandomMushrooms(20);
-
 }
 
 function createCentipede() {
@@ -321,6 +324,19 @@ function bulletHitMushroom(bullet, mushroom) {
     textScore.setText("Score: " + score);
 
     canShoot = true; // Allow shooting again
+}
+
+function bulletHitSpider(bullet, spider) {
+    // Destroy the bullet and spider
+    bullet.destroy();
+    spider.destroy();
+  
+
+    // Update the score
+    score += 200;
+    textScore.setText('Score: ' + score);
+    // Call the function to respawn a new spider
+   
 }
 
 function createRandomMushrooms(count) {
@@ -381,6 +397,7 @@ function restartGame() {
     // window.location.reload();
 
     setTimeout(() => {
+        
         window.location.reload();
     }, 1000);
 }
@@ -415,17 +432,19 @@ function moveSpider() {
         }
     }
 
-
     // If the spider reaches the bottom, reset its position
     if (spider.y > 600) {
         spider.y = 0;
         spider.x = Phaser.Math.Between(50, 750);
     }
 
-    // If the spider reaches the screen edge, reverse its direction
-    if (spider.x < 50 || spider.x > 750) {
+
+     // If the spider reaches the screen edge, reverse its direction
+        if (spider.x < 50 || spider.x > 750) {
+         
         spider.setVelocityX(-spider.body.velocity.x);
     }
+  // console.log(Phaser.Geom.Intersects.RectangleToRectangle(player.getBounds(), spider.getBounds()));
 
     // Check for collision with the player
     if (Phaser.Geom.Intersects.RectangleToRectangle(player.getBounds(), spider.getBounds())) {
@@ -435,8 +454,9 @@ function moveSpider() {
         textScore.setText('Score: ' + score);
         spider.y = 0;
         spider.x = Phaser.Math.Between(50, 750);
-
+        console.log('touched');
     }
+    
 
 }
 
