@@ -1,0 +1,493 @@
+[
+{
+      "question": "What is Test Monitoring?",
+      "options": [
+        "Checking the code for bugs",
+        "Tracking the progress of testing activities",
+        "Running test cases",
+        "Analyzing requirements"
+      ],
+      "correctAnswer": "Tracking the progress of testing activities"
+    },
+    {
+      "question": "What is the primary goal of Test Monitoring?",
+      "options": [
+        "Finding all bugs in the code",
+        "Ensuring that testing activities are on track and objectives are being achieved",
+        "Creating test cases",
+        "Reviewing requirements"
+      ],
+      "correctAnswer": "Ensuring that testing activities are on track and objectives are being achieved"
+    },
+    {
+      "question": "What is Test Control?",
+      "options": [
+        "Writing test cases",
+        "Ensuring that testing activities are carried out according to the plan",
+        "Debugging code",
+        "Analyzing requirements"
+      ],
+      "correctAnswer": "Ensuring that testing activities are carried out according to the plan"
+    },
+    {
+      "question": "Why is Test Control important in the testing process?",
+      "options": [
+        "To create bugs in the code",
+        "To ensure that the testing team follows the planned approach",
+        "To review requirements",
+        "To run test cases"
+      ],
+      "correctAnswer": "To ensure that the testing team follows the planned approach"
+    },
+    {
+    "question": "What is a test case?",
+    "options": ["A bug in the code", "A requirement document", "A set of conditions or variables under which a tester will determine if an application or software system is working correctly", "A software development tool"],
+    "correctAnswer": "A set of conditions or variables under which a tester will determine if an application or software system is working correctly"
+  },
+  {
+    "question": "What does the term 'Regression Testing' mean?",
+    "options": ["Testing a new feature in the software", "Testing a system after modification to ensure that the changes have not affected the existing features", "Testing for performance issues", "Testing for security vulnerabilities"],
+    "correctAnswer": "Testing a system after modification to ensure that the changes have not affected the existing features"
+  },
+  {
+    "question": "What is the purpose of a 'Test Plan'?",
+    "options": ["To write test cases", "To track defects", "To document the approach and objectives of software testing", "To execute test scripts"],
+    "correctAnswer": "To document the approach and objectives of software testing"
+  },
+  {
+    "question": "What is the significance of 'Test Automation'?",
+    "options": ["To manually execute test cases", "To perform testing without any plan", "To use software tools and scripts to control the execution of tests", "To analyze requirements"],
+    "correctAnswer": "To use software tools and scripts to control the execution of tests"
+  },
+  {
+    "question": "What is 'Smoke Testing'?",
+    "options": ["Testing for fire hazards in the workplace", "A type of performance testing", "A preliminary test to reveal simple failures severe enough to reject a prospective software release", "Testing for security vulnerabilities"],
+    "correctAnswer": "A preliminary test to reveal simple failures severe enough to reject a prospective software release"
+  },
+  {
+    "question": "What is the main goal of 'Performance Testing'?",
+    "options": ["To find and fix bugs in the code", "To ensure the software works on different devices", "To ensure the software performs well under different conditions", "To create test cases"],
+    "correctAnswer": "To ensure the software performs well under different conditions"
+  },
+  {
+    "question": "What does the term 'Usability Testing' refer to?",
+    "options": ["Testing the user interface of the software", "Testing the functionality of the software", "Testing for security vulnerabilities", "Testing for performance issues"],
+    "correctAnswer": "Testing the user interface of the software"
+  },
+  {
+    "question": "What is 'Test Execution'?",
+    "options": ["Planning the testing process", "Writing test cases", "Running the test cases and analyzing the results", "Tracking defects"],
+    "correctAnswer": "Running the test cases and analyzing the results"
+  },
+  {
+    "question": "What is 'Boundary Testing'?",
+    "options": ["Testing for security vulnerabilities", "Testing for performance issues", "Testing the edges or boundaries of input ranges", "Testing the user interface of the software"],
+    "correctAnswer": "Testing the edges or boundaries of input ranges"
+  },
+  {
+    "question": "What is 'Static Testing'?",
+    "options": ["Testing software in a static environment", "Reviewing documents and code without executing them", "Testing for performance issues", "Running test cases"],
+    "correctAnswer": "Reviewing documents and code without executing them"
+  },
+  {
+    "question": "What is the purpose of 'Test Design'?",
+    "options": ["To write test cases", "To execute test cases", "To review requirements", "To analyze code"],
+    "correctAnswer": "To write test cases"
+  },
+  {
+    "question": "What is 'Alpha Testing'?",
+    "options": ["A preliminary test to reveal simple failures severe enough to reject a prospective software release", "Testing for security vulnerabilities", "Testing the user interface of the software", "Testing for performance issues"],
+    "correctAnswer": "A preliminary test to reveal simple failures severe enough to reject a prospective software release"
+  },
+  {
+    "question": "What does the term 'Test Environment' mean?",
+    "options": ["A place where tests are conducted", "The set of hardware, software, network configurations, and test data needed for test execution", "The process of planning and executing tests", "A tool for automated testing"],
+    "correctAnswer": "The set of hardware, software, network configurations, and test data needed for test execution"
+  },
+  {
+    "question": "What is 'Compatibility Testing'?",
+    "options": ["Testing for performance issues", "Testing the user interface of the software", "Testing software on different devices and platforms to ensure compatibility", "Testing for security vulnerabilities"],
+    "correctAnswer": "Testing software on different devices and platforms to ensure compatibility"
+  },
+  {
+    "question": "What is 'Defect Life Cycle'?",
+    "options": ["The process of finding and fixing bugs in the code", "The stages a defect goes through from discovery to resolution", "Testing the user interface of the software", "Executing test cases"],
+    "correctAnswer": "The stages a defect goes through from discovery to resolution"
+  },
+  {
+    "question": "What is 'Test Data'?",
+    "options": ["Data used in software testing", "Data collected during user acceptance testing", "The process of tracking defects", "Data used in production environments"],
+    "correctAnswer": "Data used in software testing"
+  },
+  {
+    "question": "What does 'Ad Hoc Testing' refer to?",
+    "options": ["Testing a system after modification to ensure that the changes have not affected the existing features", "Random and unplanned testing without a formal test plan", "Executing test cases", "Testing for security vulnerabilities"],
+    "correctAnswer": "Random and unplanned testing without a formal test plan"
+  },
+  {
+    "question": "What is the purpose of 'Test Summary Report'?",
+    "options": ["To track defects", "To analyze code", "To document the approach and objectives of software testing", "To review requirements"],
+    "correctAnswer": "To document the approach and objectives of software testing"
+  },
+  {
+    "question": "What is 'Monkey Testing'?",
+    "options": ["Testing for security vulnerabilities", "Random testing without any specific test case", "Testing for performance issues", "Testing software on different devices and platforms"],
+    "correctAnswer": "Random testing without any specific test case"
+  },
+  {
+    "question": "What does 'Failover Testing' involve?",
+    "options": ["Testing for security vulnerabilities", "Testing the user interface of the software", "Testing the system's ability to recover from failures and continue functioning", "Testing for performance issues"],
+    "correctAnswer": "Testing the system's ability to recover from failures and continue functioning"
+  },
+  {
+    "question": "What is 'Test Case Prioritization'?",
+    "options": ["Creating test cases", "Reviewing documents and code without executing them", "Determining the order in which test cases should be executed", "Testing the system's performance under stress"],
+    "correctAnswer": "Determining the order in which test cases should be executed"
+  },
+  {
+    "question": "What is 'Traceability Matrix'?",
+    "options": ["A tool for automated testing", "A document that maps requirements to test cases", "The process of finding and fixing bugs in the code", "Testing for security vulnerabilities"],
+    "correctAnswer": "A document that maps requirements to test cases"
+  },
+  {
+    "question": "What is 'Black Box Testing'?",
+    "options": ["A type of performance testing", "A type of testing that involves analyzing code", "Testing the software's functionality without knowledge of its internal code structure", "Testing for security vulnerabilities"],
+    "correctAnswer": "Testing the software's functionality without knowledge of its internal code structure"
+  },
+  {
+    "question": "What is 'Agile Testing'?",
+    "options": ["A testing methodology that focuses on flexibility and collaboration", "Testing the software's performance under stress", "Testing for security vulnerabilities", "A type of testing that involves analyzing code"],
+    "correctAnswer": "A testing methodology that focuses on flexibility and collaboration"
+  },
+  {
+    "question": "What is 'White Box Testing'?",
+    "options": ["Testing for security vulnerabilities", "A type of testing that involves analyzing code", "Random testing without any specific test case", "Testing the system's performance under stress"],
+    "correctAnswer": "A type of testing that involves analyzing code"
+  },
+  {
+    "question": "What is the purpose of 'Test Execution'?",
+    "options": ["Running the test cases and analyzing the results", "Determining the order in which test cases should be executed", "Creating test cases", "Testing the system's ability to recover from failures and continue functioning"],
+    "correctAnswer": "Running the test cases and analyzing the results"
+  },
+  {
+    "question": "What is 'Acceptance Testing'?",
+    "options": ["A type of testing that involves analyzing code", "Random testing without any specific test case", "Testing for security vulnerabilities", "Testing conducted to determine whether or not the system satisfies acceptance criteria"],
+    "correctAnswer": "Testing conducted to determine whether or not the system satisfies acceptance criteria"
+  },
+  {
+    "question": "What is 'Positive Testing'?",
+    "options": ["Testing the user interface of the software", "Testing for security vulnerabilities", "Testing the system's performance under stress", "Testing with valid input to ensure the system produces the expected output"],
+    "correctAnswer": "Testing with valid input to ensure the system produces the expected output"
+  },
+  {
+    "question": "What is 'Negative Testing'?",
+    "options": ["Testing the software's functionality without knowledge of its internal code structure", "Testing with valid input to ensure the system produces the expected output", "Testing for security vulnerabilities", "Testing with invalid input to ensure the system handles errors appropriately"],
+    "correctAnswer": "Testing with invalid input to ensure the system handles errors appropriately"
+  },
+  {
+    "question": "What is the purpose of 'Test Strategy'?",
+    "options": ["To create test cases", "To review requirements", "To document the approach and objectives of software testing", "To track defects"],
+    "correctAnswer": "To document the approach and objectives of software testing"
+  },
+  {
+    "question": "What does 'Efficiency Testing' involve?",
+    "options": ["Testing for security vulnerabilities", "Testing the system's ability to recover from failures and continue functioning", "Testing the user interface of the software", "Testing the system's performance under stress"],
+    "correctAnswer": "Testing the system's performance under stress"
+  },
+  {
+    "question": "What is 'Test Harness'?",
+    "options": ["A set of conditions or variables under which a tester will determine if an application or software system is working correctly", "A tool for automated testing", "The process of planning and executing tests", "The stages a defect goes through from discovery to resolution"],
+    "correctAnswer": "A tool for automated testing"
+  },
+  {
+    "question": "What is 'Exploratory Testing'?",
+    "options": ["Random testing without any specific test case", "Testing the software's functionality without knowledge of its internal code structure", "Testing for security vulnerabilities", "A simultaneous learning, test design, and test execution"],
+    "correctAnswer": "A simultaneous learning, test design, and test execution"
+  },
+  {
+    "question": "What does 'Stress Testing' involve?",
+    "options": ["Testing for security vulnerabilities", "Testing the system's performance under stress", "Testing the software's functionality without knowledge of its internal code structure", "Testing with valid input to ensure the system produces the expected output"],
+    "correctAnswer": "Testing the system's performance under stress"
+  },
+  {
+    "question": "What is 'Test Coverage'?",
+    "options": ["A document that maps requirements to test cases", "Determining the order in which test cases should be executed", "The percentage of code or requirements covered by testing", "Running the test cases and analyzing the results"],
+    "correctAnswer": "The percentage of code or requirements covered by testing"
+  },
+  {
+    "question": "What is 'Alpha Testing'?",
+    "options": ["Testing conducted to determine whether or not the system satisfies acceptance criteria", "A type of testing that involves analyzing code", "A preliminary test to reveal simple failures severe enough to reject a prospective software release", "Testing for security vulnerabilities"],
+    "correctAnswer": "A preliminary test to reveal simple failures severe enough to reject a prospective software release"
+  },
+  {
+    "question": "What is 'Beta Testing'?",
+    "options": ["Random and unplanned testing without a formal test plan", "Testing for security vulnerabilities", "A type of testing that involves analyzing code", "Testing conducted by end-users before the software is released to the public"],
+    "correctAnswer": "Testing conducted by end-users before the software is released to the public"
+  },
+  {
+    "question": "What is 'Load Testing'?",
+    "options": ["Testing the user interface of the software", "Testing the system's performance under stress", "Testing for security vulnerabilities", "Testing the software's functionality without knowledge of its internal code structure"],
+    "correctAnswer": "Testing the system's performance under stress"
+  },
+  {
+    "question": "What does 'Sanity Testing' involve?",
+    "options": ["A preliminary test to reveal simple failures severe enough to reject a prospective software release", "Random and unplanned testing without a formal test plan", "Testing with valid input to ensure the system produces the expected output", "Testing for security vulnerabilities"],
+    "correctAnswer": "A preliminary test to reveal simple failures severe enough to reject a prospective software release"
+  },
+  {
+    "question": "What is 'Fuzz Testing'?",
+    "options": ["Testing the software's functionality without knowledge of its internal code structure", "Random and unplanned testing without a formal test plan", "A type of testing that involves analyzing code", "Testing for security vulnerabilities"],
+    "correctAnswer": "Testing the software's functionality without knowledge of its internal code structure"
+  },
+  {
+    "question": "What is 'Usability Testing'?",
+    "options": ["A type of testing that involves analyzing code", "Testing for security vulnerabilities", "Testing the software's performance under stress", "Testing the user interface of the software"],
+    "correctAnswer": "Testing the user interface of the software"
+  },
+  {
+    "question": "What is 'End-to-End Testing'?",
+    "options": ["Testing the system's performance under stress", "A type of testing that involves analyzing code", "Testing for security vulnerabilities", "Testing the entire application from start to finish to ensure all components work together"],
+    "correctAnswer": "Testing the entire application from start to finish to ensure all components work together"
+  },
+  {
+    "question": "What does 'BVT' stand for in testing?",
+    "options": ["Basic Verification Test", "Boundary Value Test", "Build Verification Test", "Best Validation Test"],
+    "correctAnswer": "Build Verification Test"
+  },
+  {
+    "question": "What is 'A/B Testing'?",
+    "options": ["A type of testing that involves analyzing code", "Random and unplanned testing without a formal test plan", "Comparing two versions of a webpage or application to determine which performs better", "Testing for security vulnerabilities"],
+    "correctAnswer": "Comparing two versions of a webpage or application to determine which performs better"
+  },
+  {
+    "question": "What is 'Mutation Testing'?",
+    "options": ["A preliminary test to reveal simple failures severe enough to reject a prospective software release", "Random and unplanned testing without a formal test plan", "A type of testing that involves changing the source code to assess the test quality", "Testing for security vulnerabilities"],
+    "correctAnswer": "A type of testing that involves changing the source code to assess the test quality"
+  },
+  {
+    "question": "What is 'API Testing'?",
+    "options": ["Testing for security vulnerabilities", "Testing the software's functionality without knowledge of its internal code structure", "Testing the application programming interface to ensure it functions as expected", "Testing the user interface of the software"],
+    "correctAnswer": "Testing the application programming interface to ensure it functions as expected"
+  },
+  {
+    "question": "What is 'Dependency Testing'?",
+    "options": ["Testing for security vulnerabilities", "Testing the user interface of the software", "Testing the software's performance under stress", "Testing the impact of changes in one module on other modules"],
+    "correctAnswer": "Testing the impact of changes in one module on other modules"
+  },
+  {
+    "question": "What does 'Non-Functional Testing' focus on?",
+    "options": ["Testing for security vulnerabilities", "Testing the user interface of the software", "Testing the software's performance under stress", "Testing aspects like performance, usability, and reliability"],
+    "correctAnswer": "Testing aspects like performance, usability, and reliability"
+  },
+  {
+    "question": "What is 'Compatibility Testing'?",
+    "options": ["Testing for security vulnerabilities", "Testing the user interface of the software", "Testing software on different devices and platforms to ensure compatibility", "Testing for performance issues"],
+    "correctAnswer": "Testing software on different devices and platforms to ensure compatibility"
+  },
+  {
+    "question": "What is 'Vulnerability Testing'?",
+    "options": ["A type of testing that involves analyzing code", "Testing for security vulnerabilities", "Random and unplanned testing without a formal test plan", "Testing with invalid input to ensure the system handles errors appropriately"],
+    "correctAnswer": "Testing for security vulnerabilities"
+  },
+  {
+    "question": "What is 'Penetration Testing'?",
+    "options": ["A preliminary test to reveal simple failures severe enough to reject a prospective software release", "Testing for security vulnerabilities", "Testing the software's performance under stress", "Random and unplanned testing without a formal test plan"],
+    "correctAnswer": "Testing for security vulnerabilities"
+  },
+  {
+    "question": "What does 'Ramp Testing' involve?",
+    "options": ["Testing for security vulnerabilities", "Gradually increasing the load on the system until it fails or performance degrades", "Testing the software's functionality without knowledge of its internal code structure", "Testing the user interface of the software"],
+    "correctAnswer": "Gradually increasing the load on the system until it fails or performance degrades"
+  },
+  {
+    "question": "What is 'Security Testing'?",
+    "options": ["Testing for security vulnerabilities", "Random and unplanned testing without a formal test plan", "A type of testing that involves analyzing code", "Testing the software's performance under stress"],
+    "correctAnswer": "Testing for security vulnerabilities"
+  },
+  {
+    "question": "What is 'Static Code Analysis'?",
+    "options": ["Testing the software's functionality without knowledge of its internal code structure", "A type of testing that involves analyzing code", "Random and unplanned testing without a formal test plan", "Gradually increasing the load on the system until it fails or performance degrades"],
+    "correctAnswer": "A type of testing that involves analyzing code"
+  },
+  {
+    "question": "What is 'Model-Based Testing'?",
+    "options": ["Creating test cases", "A type of testing that involves analyzing code", "Using a model to design and execute test cases", "Random and unplanned testing without a formal test plan"],
+    "correctAnswer": "Using a model to design and execute test cases"
+  },
+  {
+    "question": "What does 'Backward Compatibility' mean?",
+    "options": ["Testing for security vulnerabilities", "Ensuring that software can run on older versions of hardware or software", "Testing the software's performance under stress", "Gradually increasing the load on the system until it fails or performance degrades"],
+    "correctAnswer": "Ensuring that software can run on older versions of hardware or software"
+  },
+  {
+    "question": "What is 'Exploratory Testing'?",
+    "options": ["A simultaneous learning, test design, and test execution", "A type of testing that involves analyzing code", "Random and unplanned testing without a formal test plan", "Gradually increasing the load on the system until it fails or performance degrades"],
+    "correctAnswer": "A simultaneous learning, test design, and test execution"
+  },
+  {
+    "question": "What does 'Scalability Testing' involve?",
+    "options": ["Testing for security vulnerabilities", "Testing the user interface of the software", "Testing the software's performance under stress", "Testing the system's ability to handle a growing amount of work or data"],
+    "correctAnswer": "Testing the system's ability to handle a growing amount of work or data"
+  },
+  {
+    "question": "What is 'Integration Testing'?",
+    "options": ["Testing for security vulnerabilities", "Random and unplanned testing without a formal test plan", "Testing the software's functionality without knowledge of its internal code structure", "Testing the collaboration between different modules or components"],
+    "correctAnswer": "Testing the collaboration between different modules or components"
+  },
+  {
+    "question": "What is 'Pair Testing'?",
+    "options": ["A type of testing that involves analyzing code", "Testing for security vulnerabilities", "Two team members work together to find defects and verify functionality", "Random and unplanned testing without a formal test plan"],
+    "correctAnswer": "Two team members work together to find defects and verify functionality"
+  },
+  {
+    "question": "What does 'Volume Testing' involve?",
+    "options": ["Testing for security vulnerabilities", "Testing the software's performance under stress", "Testing with a large amount of data to ensure the system handles it efficiently", "Random and unplanned testing without a formal test plan"],
+    "correctAnswer": "Testing with a large amount of data to ensure the system handles it efficiently"
+  },
+  {
+    "question": "What is 'Alpha Testing'?",
+    "options": ["A preliminary test to reveal simple failures severe enough to reject a prospective software release", "Testing conducted to determine whether or not the system satisfies acceptance criteria", "Testing for security vulnerabilities", "A type of testing that involves analyzing code"],
+    "correctAnswer": "A preliminary test to reveal simple failures severe enough to reject a prospective software release"
+  },
+  {
+    "question": "What is 'Beta Testing'?",
+    "options": ["Testing conducted by end-users before the software is released to the public", "Random and unplanned testing without a formal test plan", "A type of testing that involves analyzing code", "Testing for security vulnerabilities"],
+    "correctAnswer": "Testing conducted by end-users before the software is released to the public"
+  },
+  {
+    "question": "What is 'Load Testing'?",
+    "options": ["Testing for security vulnerabilities", "Testing the software's functionality without knowledge of its internal code structure", "Testing the system's performance under stress", "Testing with a simulated load to ensure the system can handle expected traffic"],
+    "correctAnswer": "Testing the system's performance under stress"
+  },
+  {
+    "question": "What is 'Smoke Testing'?",
+    "options": ["A preliminary test to reveal simple failures severe enough to reject a prospective software release", "Random and unplanned testing without a formal test plan", "Testing with valid input to ensure the system produces the expected output", "Testing for security vulnerabilities"],
+    "correctAnswer": "A preliminary test to reveal simple failures severe enough to reject a prospective software release"
+  },
+  {
+    "question": "What does 'BDD' stand for in testing?",
+    "options": ["Behavior Driven Development", "Boundary Driven Development", "Build Driven Development", "Binary Driven Development"],
+    "correctAnswer": "Behavior Driven Development"
+  },
+   {
+    "question": "What does 'Gherkin' refer to in the context of testing?",
+    "options": ["A type of fruit", "A programming language", "A testing framework", "A language used for writing behavior specifications"],
+    "correctAnswer": "A language used for writing behavior specifications"
+  },
+  {
+    "question": "What is 'Regression Testing'?",
+    "options": ["Testing for security vulnerabilities", "A type of testing that involves analyzing code", "Testing the system after modification to ensure that the changes have not affected the existing features", "Random and unplanned testing without a formal test plan"],
+    "correctAnswer": "Testing the system after modification to ensure that the changes have not affected the existing features"
+  },
+  {
+    "question": "What is 'Alpha Testing'?",
+    "options": ["A preliminary test to reveal simple failures severe enough to reject a prospective software release", "Testing for security vulnerabilities", "Testing the user interface of the software", "Random and unplanned testing without a formal test plan"],
+    "correctAnswer": "A preliminary test to reveal simple failures severe enough to reject a prospective software release"
+  },
+  {
+    "question": "What is 'Automated Testing'?",
+    "options": ["Testing for security vulnerabilities", "Random and unplanned testing without a formal test plan", "Testing conducted by a computer using scripts and tools", "Testing the software's functionality without knowledge of its internal code structure"],
+    "correctAnswer": "Testing conducted by a computer using scripts and tools"
+  },
+  {
+    "question": "What does 'Code Coverage' measure?",
+    "options": ["The percentage of code or requirements covered by testing", "Testing for security vulnerabilities", "Testing the system's performance under stress", "Random and unplanned testing without a formal test plan"],
+    "correctAnswer": "The percentage of code or requirements covered by testing"
+  },
+  {
+    "question": "What is 'Monkey Testing'?",
+    "options": ["Random testing without any specific test case", "Testing for security vulnerabilities", "Testing the software's functionality without knowledge of its internal code structure", "A type of performance testing"],
+    "correctAnswer": "Random testing without any specific test case."
+  },
+  {
+    "question": "What is 'Smoke Testing'?",
+    "options": ["A preliminary test to reveal simple failures severe enough to reject a prospective software release", "Random and unplanned testing without a formal test plan", "Testing with valid input to ensure the system produces the expected output", "Testing for security vulnerabilities"],
+    "correctAnswer": "A preliminary test to reveal simple failures severe enough to reject a prospective software release"
+  },
+  {
+    "question": "What does 'V-Model' represent in software testing?",
+    "options": ["A type of fruit", "A testing framework", "A development and testing model that emphasizes a parallel process of testing corresponding to each development stage", "A programming language"],
+    "correctAnswer": "A development and testing model that emphasizes a parallel process of testing corresponding to each development stage"
+  },
+  {
+    "question": "What is 'Boundary Testing'?",
+    "options": ["Testing for security vulnerabilities", "Testing the user interface of the software", "Testing the edges or boundaries of input ranges", "Random and unplanned testing without a formal test plan"],
+    "correctAnswer": "Testing the edges or boundaries of input ranges"
+  },
+  {
+    "question": "What does 'FMEA' stand for in testing?",
+    "options": ["Failure Mode and Effect Analysis", "Functionality Model and Effect Analysis", "Formal Methods and Effect Analysis", "Failure Metrics and Error Analysis"],
+    "correctAnswer": "Failure Mode and Effect Analysis"
+  },
+  {
+    "question": "What is 'Peer Review' in the context of testing?",
+    "options": ["A type of performance testing", "A process where a person or group reviews code, documents, or other artifacts to find defects or ensure compliance with standards", "Random and unplanned testing without a formal test plan", "Testing for security vulnerabilities"],
+    "correctAnswer": "A process where a person or group reviews code, documents, or other artifacts to find defects or ensure compliance with standards"
+  },
+  {
+    "question": "What is 'Scrum'?",
+    "options": ["A type of fruit", "A testing framework", "An agile project management framework", "A programming language"],
+    "correctAnswer": "An agile project management framework"
+  },
+  {
+    "question": "What does 'TDD' stand for in testing?",
+    "options": ["Test Driven Development", "Technical Design Document", "Test Documentation and Deployment", "Technological Development and Design"],
+    "correctAnswer": "Test Driven Development"
+  },
+  {
+    "question": "What is 'Test Case'?",
+    "options": ["A bug in the code", "A requirement document", "A set of conditions or variables under which a tester will determine if an application or software system is working correctly", "A software development tool"],
+    "correctAnswer": "A set of conditions or variables under which a tester will determine if an application or software system is working correctly"
+  },
+  {
+    "question": "What is 'Pair Programming'?",
+    "options": ["A type of testing that involves analyzing code", "A method in which two programmers work together at one workstation", "Random and unplanned testing without a formal test plan", "Testing for security vulnerabilities"],
+    "correctAnswer": "A method in which two programmers work together at one workstation"
+  },
+  {
+    "question": "What does 'ISO 9126' refer to in the context of testing?",
+    "options": ["A type of fruit", "A testing framework", "An international standard for software quality", "A programming language"],
+    "correctAnswer": "An international standard for software quality"
+  },
+  {
+    "question": "What is 'Defect Density'?",
+    "options": ["The number of defects identified during a specific phase of development or testing divided by the size of the deliverable", "Testing for security vulnerabilities", "Random and unplanned testing without a formal test plan", "The percentage of code or requirements covered by testing"],
+    "correctAnswer": "The number of defects identified during a specific phase of development or testing divided by the size of the deliverable"
+  },
+  {
+    "question": "What does 'CMMI' stand for in testing?",
+    "options": ["Capability Maturity Model Integration", "Code Metrics and Measurement Information", "Change Management and Model Integration", "Continuous Monitoring and Management Integration"],
+    "correctAnswer": "Capability Maturity Model Integration"
+  },
+  {
+    "question": "What is 'Sprint' in Agile methodology?",
+    "options": ["A type of fruit", "A testing framework", "A time-boxed iteration of a continuous development cycle in Scrum", "A programming language"],
+    "correctAnswer": "A time-boxed iteration of a continuous development cycle in Scrum"
+  },
+  {
+    "question": "What is 'Ad Hoc Testing'?",
+    "options": ["Random and unplanned testing without a formal test plan", "Testing for security vulnerabilities", "Testing the edges or boundaries of input ranges", "A type of performance testing"],
+    "correctAnswer": "Random and unplanned testing without a formal test plan"
+  },
+  {
+    "question": "What does 'MTTR' stand for in testing?",
+    "options": ["Mean Time To Repair", "Maximum Test Time Requirement", "Minimum Time To Recover", "Meaningful Test Task Requirement"],
+    "correctAnswer": "Mean Time To Repair"
+  },
+  {
+    "question": "What is 'Variance Analysis' in testing?",
+    "options": ["Random and unplanned testing without a formal test plan", "A statistical technique used to identify and quantify the level of variation in a set of data", "Testing for security vulnerabilities", "A type of performance testing"],
+    "correctAnswer": "A statistical technique used to identify and quantify the level of variation in a set of data"
+  },
+  {
+    "question": "What is 'ISO/IEC 25010'?",
+    "options": ["A type of fruit", "A testing framework", "A standard that defines a model for the quality of software systems", "A programming language"],
+    "correctAnswer": "A standard that defines a model for the quality of software systems"
+  },
+  {
+    "question": "What is 'Exploratory Testing'?",
+    "options": ["A simultaneous learning, test design, and test execution", "Testing for security vulnerabilities", "Random and unplanned testing without a formal test plan", "A type of performance testing"],
+    "correctAnswer": "A simultaneous learning, test design, and test execution"
+  }
+
+]

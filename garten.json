@@ -1,0 +1,624 @@
+[
+  {
+    "question": "Welches Werkzeug wird am besten für das Umpflanzen von kleinen Setzlingen verwendet?",
+    "options": [
+      "Hacke",
+      "Spaten",
+      "Gartenschere",
+      "Pflanzholz"
+    ],
+    "correctAnswer": "Pflanzholz"
+  },
+  {
+    "question": "Was ist der optimale pH-Wert für die meisten Gemüsepflanzen im Gartenboden?",
+    "options": [
+      "7,0",
+      "5,5",
+      "6,5",
+      "8,0"
+    ],
+    "correctAnswer": "6,5"
+  },
+  {
+    "question": "Wie oft sollten Sie Tomatenpflanzen normalerweise gießen?",
+    "options": [
+      "Einmal pro Woche",
+      "Alle zwei Wochen",
+      "Täglich",
+      "Alle vier Wochen"
+    ],
+    "correctAnswer": "Täglich"
+  },
+  {
+    "question": "Welcher Bodentyp ist ideal für den Anbau von Kräutern in Töpfen?",
+    "options": [
+      "Lehm",
+      "Sand",
+      "Blumenerde",
+      "Torfmoos"
+    ],
+    "correctAnswer": "Blumenerde"
+  },
+  {
+    "question": "Warum ist es wichtig, Unkraut regelmäßig zu jäten?",
+    "options": [
+      "Es fördert das Wachstum von nützlichen Pflanzen",
+      "Es verhindert die Ausbreitung von Krankheiten",
+      "Es verbessert die Bodenfruchtbarkeit",
+      "Es erhöht den Schutz vor Schädlingen"
+    ],
+    "correctAnswer": "Es verhindert die Ausbreitung von Krankheiten"
+  },
+  {
+    "question": "Welcher Pflanzabstand ist in der Regel für Tomatenpflanzen zu empfehlen?",
+    "options": [
+      "20 cm",
+      "50 cm",
+      "80 cm",
+      "1 m"
+    ],
+    "correctAnswer": "50 cm"
+  },
+  {
+    "question": "Welche Jahreszeit ist am besten für die Aussaat von Blumenzwiebeln?",
+    "options": [
+      "Sommer",
+      "Herbst",
+      "Winter",
+      "Frühling"
+    ],
+    "correctAnswer": "Herbst"
+  },
+  {
+    "question": "Was ist eine effektive Methode zur natürlichen Schädlingsbekämpfung im Garten?",
+    "options": [
+      "Einsatz von chemischen Insektiziden",
+      "Anbau von widerstandsfähigen Pflanzen",
+      "Verwendung von synthetischem Dünger",
+      "Häufige Bodenbearbeitung"
+    ],
+    "correctAnswer": "Anbau von widerstandsfähigen Pflanzen"
+  },
+  {
+    "question": "Welche Gemüsepflanze ist dafür bekannt, Stickstoff im Boden zu fixieren?",
+    "options": [
+      "Tomaten",
+      "Erbsen",
+      "Zucchini",
+      "Karotten"
+    ],
+    "correctAnswer": "Erbsen"
+  },
+  {
+    "question": "Welcher Standort ist für Sonnenblumen am besten geeignet?",
+    "options": [
+      "Halbschatten",
+      "Vollschatten",
+      "Sonniger Standort",
+      "Kühler Nordhang"
+    ],
+    "correctAnswer": "Sonniger Standort"
+  },
+  {
+    "question": "Was ist ein häufiges Symptom für einen Nährstoffmangel bei Pflanzen?",
+    "options": [
+      "Blattverfärbung",
+      "Übermäßiges Wachstum",
+      "Wurzelfäule",
+      "Blütenfülle"
+    ],
+    "correctAnswer": "Blattverfärbung"
+  },
+  {
+    "question": "Welche Methode fördert die Bildung von Kompost im Garten?",
+    "options": [
+      "Entsorgung von Grünschnitt",
+      "Verbrennen von Gartenabfällen",
+      "Wegwerfen von Küchenabfällen",
+      "Sammlung von Plastikverpackungen"
+    ],
+    "correctAnswer": "Entsorgung von Grünschnitt"
+  },
+  {
+    "question": "Was ist ein wesentlicher Vorteil des Mulchens im Garten?",
+    "options": [
+      "Erhöhung der Bodentemperatur",
+      "Verringerung der Bodenfeuchtigkeit",
+      "Förderung von Unkrautwachstum",
+      "Verlangsamung des biologischen Abbaus"
+    ],
+    "correctAnswer": "Erhöhung der Bodentemperatur"
+  },
+  {
+    "question": "Welche Pflanzen sind in der Regel gut für einen vertikalen Garten geeignet?",
+    "options": [
+      "Kartoffeln",
+      "Erdbeeren",
+      "Kürbisse",
+      "Karotten"
+    ],
+    "correctAnswer": "Erdbeeren"
+  },
+  {
+    "question": "Was ist beim Anbau von Rosen besonders wichtig für die Blütenpracht?",
+    "options": [
+      "Regelmäßiges Beschneiden",
+      "Wenig Sonnenlicht",
+      "Verwendung von Insektiziden",
+      "Trockener Boden"
+    ],
+    "correctAnswer": "Regelmäßiges Beschneiden"
+  },
+  {
+    "question": "Welches Werkzeug wird am besten für das Umpflanzen von kleinen Setzlingen verwendet?",
+    "options": [
+      "Hacke",
+      "Spaten",
+      "Gartenschere",
+      "Pflanzholz"
+    ],
+    "correctAnswer": "Pflanzholz"
+  },
+  {
+    "question": "Was ist der optimale pH-Wert für die meisten Gemüsepflanzen im Gartenboden?",
+    "options": [
+      "7,0",
+      "5,5",
+      "6,5",
+      "8,0"
+    ],
+    "correctAnswer": "6,5"
+  },
+  {
+    "question": "Wie oft sollten Sie Tomatenpflanzen normalerweise gießen?",
+    "options": [
+      "Einmal pro Woche",
+      "Alle zwei Wochen",
+      "Täglich",
+      "Alle vier Wochen"
+    ],
+    "correctAnswer": "Täglich"
+  },
+  {
+    "question": "Welcher Bodentyp ist ideal für den Anbau von Kräutern in Töpfen?",
+    "options": [
+      "Lehm",
+      "Sand",
+      "Blumenerde",
+      "Torfmoos"
+    ],
+    "correctAnswer": "Blumenerde"
+  },
+  {
+    "question": "Warum ist es wichtig, Unkraut regelmäßig zu jäten?",
+    "options": [
+      "Es fördert das Wachstum von nützlichen Pflanzen",
+      "Es verhindert die Ausbreitung von Krankheiten",
+      "Es verbessert die Bodenfruchtbarkeit",
+      "Es erhöht den Schutz vor Schädlingen"
+    ],
+    "correctAnswer": "Es verhindert die Ausbreitung von Krankheiten"
+  },
+  {
+    "question": "Welcher Pflanzabstand ist in der Regel für Tomatenpflanzen zu empfehlen?",
+    "options": [
+      "20 cm",
+      "50 cm",
+      "80 cm",
+      "1 m"
+    ],
+    "correctAnswer": "50 cm"
+  },
+  {
+    "question": "Welche Jahreszeit ist am besten für die Aussaat von Blumenzwiebeln?",
+    "options": [
+      "Sommer",
+      "Herbst",
+      "Winter",
+      "Frühling"
+    ],
+    "correctAnswer": "Herbst"
+  },
+  {
+    "question": "Was ist eine effektive Methode zur natürlichen Schädlingsbekämpfung im Garten?",
+    "options": [
+      "Einsatz von chemischen Insektiziden",
+      "Anbau von widerstandsfähigen Pflanzen",
+      "Verwendung von synthetischem Dünger",
+      "Häufige Bodenbearbeitung"
+    ],
+    "correctAnswer": "Anbau von widerstandsfähigen Pflanzen"
+  },
+  {
+    "question": "Welche Gemüsepflanze ist dafür bekannt, Stickstoff im Boden zu fixieren?",
+    "options": [
+      "Tomaten",
+      "Erbsen",
+      "Zucchini",
+      "Karotten"
+    ],
+    "correctAnswer": "Erbsen"
+  },
+  {
+    "question": "Welcher Standort ist für Sonnenblumen am besten geeignet?",
+    "options": [
+      "Halbschatten",
+      "Vollschatten",
+      "Sonniger Standort",
+      "Kühler Nordhang"
+    ],
+    "correctAnswer": "Sonniger Standort"
+  },
+  {
+    "question": "Was ist ein häufiges Symptom für einen Nährstoffmangel bei Pflanzen?",
+    "options": [
+      "Blattverfärbung",
+      "Übermäßiges Wachstum",
+      "Wurzelfäule",
+      "Blütenfülle"
+    ],
+    "correctAnswer": "Blattverfärbung"
+  },
+  {
+    "question": "Welche Methode fördert die Bildung von Kompost im Garten?",
+    "options": [
+      "Entsorgung von Grünschnitt",
+      "Verbrennen von Gartenabfällen",
+      "Wegwerfen von Küchenabfällen",
+      "Sammlung von Plastikverpackungen"
+    ],
+    "correctAnswer": "Entsorgung von Grünschnitt"
+  },
+  {
+    "question": "Was ist ein wesentlicher Vorteil des Mulchens im Garten?",
+    "options": [
+      "Erhöhung der Bodentemperatur",
+      "Verringerung der Bodenfeuchtigkeit",
+      "Förderung von Unkrautwachstum",
+      "Verlangsamung des biologischen Abbaus"
+    ],
+    "correctAnswer": "Erhöhung der Bodentemperatur"
+  },
+  {
+    "question": "Welche Pflanzen sind in der Regel gut für einen vertikalen Garten geeignet?",
+    "options": [
+      "Kartoffeln",
+      "Erdbeeren",
+      "Kürbisse",
+      "Karotten"
+    ],
+    "correctAnswer": "Erdbeeren"
+  },
+  {
+    "question": "Was ist beim Anbau von Rosen besonders wichtig für die Blütenpracht?",
+    "options": [
+      "Regelmäßiges Beschneiden",
+      "Wenig Sonnenlicht",
+      "Verwendung von Insektiziden",
+      "Trockener Boden"
+    ],
+    "correctAnswer": "Regelmäßiges Beschneiden"
+  },
+  {
+    "question": "Welches Gemüse ist dafür bekannt, gut im Halbschatten zu wachsen?",
+    "options": [
+      "Tomaten",
+      "Spinat",
+      "Paprika",
+      "Zucchini"
+    ],
+    "correctAnswer": "Spinat"
+  },
+  {
+    "question": "Was ist die optimale Bewässerungszeit für den Garten im Sommer?",
+    "options": [
+      "Morgens",
+      "Mittags",
+      "Abends",
+      "Nachts"
+    ],
+    "correctAnswer": "Morgens"
+  },
+  {
+    "question": "Welche Blumenart wird oft als 'Königin der Blumen' bezeichnet?",
+    "options": [
+      "Sonnenblumen",
+      "Tulpen",
+      "Rosen",
+      "Lilien"
+    ],
+    "correctAnswer": "Rosen"
+  },
+  {
+    "question": "Warum ist es wichtig, Pflanzenschutzmittel verantwortungsbewusst zu verwenden?",
+    "options": [
+      "Förderung des Pflanzenwachstums",
+      "Vermeidung von Überdüngung",
+      "Schutz vor schädlichen Insekten",
+      "Erhaltung der Umwelt"
+    ],
+    "correctAnswer": "Erhaltung der Umwelt"
+  },
+  {
+    "question": "Welche Methode wird häufig zur Vermehrung von Zimmerpflanzen verwendet?",
+    "options": [
+      "Stecklinge",
+      "Samen",
+      "Veredelung",
+      "Teilung"
+    ],
+    "correctAnswer": "Stecklinge"
+  },
+  {
+    "question": "Welches Kraut ist bekannt für seine beruhigenden Eigenschaften und wird oft in Tees verwendet?",
+    "options": [
+      "Basilikum",
+      "Koriander",
+      "Lavendel",
+      "Minze"
+    ],
+    "correctAnswer": "Lavendel"
+  },
+  {
+    "question": "Was ist der Zweck von Mulch im Garten?",
+    "options": [
+      "Unkrautunterdrückung",
+      "Förderung von Schädlingen",
+      "Erhöhung der Bodenverdichtung",
+      "Verbesserung der Luftzirkulation"
+    ],
+    "correctAnswer": "Unkrautunterdrückung"
+  },
+  {
+    "question": "Welche Frucht wird oft als 'Beerenkönigin' bezeichnet?",
+    "options": [
+      "Erdbeeren",
+      "Himbeeren",
+      "Blaubeeren",
+      "Kirschen"
+    ],
+    "correctAnswer": "Himbeeren"
+  },
+  {
+    "question": "Welches Gemüse ist dafür bekannt, gut im Schatten zu wachsen?",
+    "options": [
+      "Gurken",
+      "Kartoffeln",
+      "Radieschen",
+      "Sellerie"
+    ],
+    "correctAnswer": "Sellerie"
+  },
+    {
+    "question": "Welche Blume wird oft als 'Königin der Nacht' bezeichnet?",
+    "options": [
+      "Sonnenblume",
+      "Orchidee",
+      "Tulpe",
+      "Nachtkerze"
+    ],
+    "correctAnswer": "Nachtkerze"
+  },
+  {
+    "question": "Welcher Boden pH-Wert ist ideal für Hortensien?",
+    "options": [
+      "Sauer (unter 7)",
+      "Neutral (7)",
+      "Basisch (über 7)",
+      "Alkalisch"
+    ],
+    "correctAnswer": "Sauer (unter 7)"
+  },
+  {
+    "question": "Welche Gemüsesorte ist für den Anbau in vertikalen Gärten besonders geeignet?",
+    "options": [
+      "Brokkoli",
+      "Erdbeeren",
+      "Zwiebeln",
+      "Tomaten"
+    ],
+    "correctAnswer": "Erdbeeren"
+  },
+  {
+    "question": "Was ist der Hauptzweck von Mulch in einem Gemüsegarten?",
+    "options": [
+      "Erhöhung der Bodentemperatur",
+      "Unkrautbekämpfung",
+      "Verbesserung der Sichtbarkeit",
+      "Förderung von Insekten"
+    ],
+    "correctAnswer": "Unkrautbekämpfung"
+  },
+  {
+    "question": "Welche Pflanze ist für ihre luftreinigenden Eigenschaften in Innenräumen bekannt?",
+    "options": [
+      "Aloe Vera",
+      "Bonsai",
+      "Farn",
+      "Kaktus"
+    ],
+    "correctAnswer": "Farn"
+  },
+  {
+    "question": "Wann ist die beste Zeit für die Aussaat von Frühlingsblumen im Freien?",
+    "options": [
+      "Herbst",
+      "Winter",
+      "Frühling",
+      "Sommer"
+    ],
+    "correctAnswer": "Herbst"
+  },
+  {
+    "question": "Welcher Obstbaum benötigt eine kühlere Winterruhe, um Früchte zu tragen?",
+    "options": [
+      "Apfelbaum",
+      "Pfirsichbaum",
+      "Zitronenbaum",
+      "Feigenbaum"
+    ],
+    "correctAnswer": "Apfelbaum"
+  },
+  {
+    "question": "Was ist der Hauptzweck von Düngemitteln im Garten?",
+    "options": [
+      "Unkrautvernichtung",
+      "Förderung von Schädlingen",
+      "Bodenverbesserung",
+      "Luftdesinfektion"
+    ],
+    "correctAnswer": "Bodenverbesserung"
+  },
+  {
+    "question": "Welche Gemüsesorte ist dafür bekannt, Stickstoff im Boden anzureichern?",
+    "options": [
+      "Karotten",
+      "Spinat",
+      "Linsen",
+      "Erbsen"
+    ],
+    "correctAnswer": "Erbsen"
+  },
+  {
+    "question": "Welches Werkzeug wird am besten verwendet, um Rasenkanten sauber zu schneiden?",
+    "options": [
+      "Heckenschere",
+      "Rasenmäher",
+      "Spaten",
+      "Rasenkantenschneider"
+    ],
+    "correctAnswer": "Rasenkantenschneider"
+  },
+  {
+    "question": "Warum ist es wichtig, Pflanzen vor dem ersten Frost zu schützen?",
+    "options": [
+      "Förderung des Wachstums",
+      "Vermeidung von Krankheiten",
+      "Erhöhung der Blütenpracht",
+      "Schutz vor Frostschäden"
+    ],
+    "correctAnswer": "Schutz vor Frostschäden"
+  },
+  {
+    "question": "Welche Krautpflanze wird oft als natürlicher Insektenschutz verwendet?",
+    "options": [
+      "Rosmarin",
+      "Thymian",
+      "Basilikum",
+      "Dill"
+    ],
+    "correctAnswer": "Rosmarin"
+  },
+  {
+    "question": "Was ist der beste Zeitpunkt für die Ernte von Zucchinis?",
+    "options": [
+      "Frühling",
+      "Sommer",
+      "Herbst",
+      "Winter"
+    ],
+    "correctAnswer": "Sommer"
+  },
+  {
+    "question": "Welches Gemüse ist dafür bekannt, gut in Töpfen auf Balkonen zu wachsen?",
+    "options": [
+      "Brokkoli",
+      "Kartoffeln",
+      "Tomaten",
+      "Paprika"
+    ],
+    "correctAnswer": "Tomaten"
+  },
+  {
+    "question": "Welches Werkzeug wird am besten verwendet, um den Boden in einem Blumenbeet umzudrehen?",
+    "options": [
+      "Rechen",
+      "Harken",
+      "Spitzhacke",
+      "Schaufel"
+    ],
+    "correctAnswer": "Schaufel"
+  },
+  {
+    "question": "Was ist ein wesentlicher Bestandteil eines gut durchlässigen Blumenerdes?",
+    "options": [
+      "Sand",
+      "Lehm",
+      "Ton",
+      "Schlamm"
+    ],
+    "correctAnswer": "Sand"
+  },
+  {
+    "question": "Welche Blume wird oft mit Hochzeiten und Liebe assoziiert?",
+    "options": [
+      "Sonnenblume",
+      "Tulpe",
+      "Rose",
+      "Lilie"
+    ],
+    "correctAnswer": "Rose"
+  },
+  {
+    "question": "Welche Gemüsesorte benötigt normalerweise eine Rankhilfe für optimales Wachstum?",
+    "options": [
+      "Gurken",
+      "Kartoffeln",
+      "Karotten",
+      "Radieschen"
+    ],
+    "correctAnswer": "Gurken"
+  },
+  {
+    "question": "Welches Kraut wird oft für seine beruhigenden Eigenschaften und als Schlafhilfe verwendet?",
+    "options": [
+      "Minze",
+      "Lavendel",
+      "Kamille",
+      "Basilikum"
+    ],
+    "correctAnswer": "Lavendel"
+  },
+  {
+    "question": "Was ist eine wichtige Maßnahme, um die Ausbreitung von Pflanzenkrankheiten zu verhindern?",
+    "options": [
+      "Regelmäßiges Gießen",
+      "Luftdurchlässiger Boden",
+      "Isolation kranker Pflanzen",
+      "Verwendung von Pestiziden"
+    ],
+    "correctAnswer": "Isolation kranker Pflanzen"
+  },
+  {
+    "question": "Welche Blume ist dafür bekannt, nachts intensiver zu duften?",
+    "options": [
+      "Tulpe",
+      "Nelke",
+      "Jasmin",
+      "Veilchen"
+    ],
+    "correctAnswer": "Jasmin"
+  },
+  {
+    "question": "Warum ist es wichtig, die richtige Menge Wasser zu verwenden, wenn Sie Pflanzen gießen?",
+    "options": [
+      "Förderung von Staunässe",
+      "Vermeidung von Wurzelfäule",
+      "Erhöhung der Bodenverdichtung",
+      "Anregung des Pflanzenwachstums"
+    ],
+    "correctAnswer": "Vermeidung von Wurzelfäule"
+  },
+  {
+    "question": "Welche Gartenpflanze ist dafür bekannt, Schmetterlinge anzulocken?",
+    "options": [
+      "Lilien",
+      "Sonnenblumen",
+      "Buddleja (Schmetterlingsstrauch)",
+      "Rosen"
+    ],
+    "correctAnswer": "Buddleja (Schmetterlingsstrauch)"
+  } 
+]
+
+  

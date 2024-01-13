@@ -1,0 +1,828 @@
+
+[
+{
+    "question": "¿Cómo se forma la forma pasada (pretérito) en español en tercera persona del singular añadiendo -aba/-ía a los verbos? Explica esta regla gramatical.",
+    "options": [
+    "Añadiendo -aba/-ía a los verbos",
+    "Usando el presente del verbo 'haber'",
+    "Cambiando el radical del verbo",
+    "No hay forma pasada en español"
+    ],
+    "correctAnswer": "Añadiendo -aba/-ía a los verbos",
+    "exampleSentence": "Ejemplo: María escribió una carta a su amiga. (Español)\nBeispiel: Maria schrieb einen Brief an ihre Freundin. (Alemán)\nExample: Maria wrote a letter to her friend. (Inglés)"
+    },
+    {
+    "question": "¿Cuál es la conjugación correcta del verbo 'hablar' en primera persona del singular en pasado? Explica esta regla gramatical.",
+    "options": [
+    "Hablaba",
+    "Hablo",
+    "Hablé",
+    "Hablaría"
+    ],
+    "correctAnswer": "Hablé",
+    "exampleSentence": "Ejemplo: Ayer hablé con mi profesor sobre el proyecto. (Español)\nBeispiel: Gestern habe ich mit meinem Lehrer über das Projekt gesprochen. (Alemán)\nExample: Yesterday, I talked with my teacher about the project. (Inglés)"
+    },
+    {
+    "question": "¿Cómo se dice 'I ate' en español? Explica esta regla gramatical.",
+    "options": [
+    "Yo come",
+    "Yo comí",
+    "Yo comeré",
+    "Yo comía"
+    ],
+    "correctAnswer": "Yo comí",
+    "exampleSentence": "Ejemplo: Anoche yo comí una deliciosa pizza. (Español)\nBeispiel: Gestern habe ich eine leckere Pizza gegessen. (Alemán)\nExample: Last night, I ate a delicious pizza. (Inglés)"
+    },
+    {
+    "question": "¿Cuál es la forma correcta del verbo 'escribir' en tercera persona del singular en pasado? Explica esta regla gramatical.",
+    "options": [
+    "Escribó",
+    "Escribiendo",
+    "Escribía",
+    "Escribió"
+    ],
+    "correctAnswer": "Escribió",
+    "exampleSentence": "Ejemplo: El autor escribió una novela fascinante el año pasado. (Español)\nBeispiel: Der Autor schrieb einen faszinierenden Roman im letzten Jahr. (Alemán)\nExample: The author wrote a fascinating novel last year. (Inglés)"
+    },
+    {
+    "question": "¿Cómo se traduce la frase 'We played soccer' al español? Explica esta regla gramatical.",
+    "options": [
+    "Nosotros jugamos al fútbol",
+    "Nosotros juega al fútbol",
+    "Nosotros jugará al fútbol",
+    "Nosotros jugaba al fútbol"
+    ],
+    "correctAnswer": "Nosotros jugamos al fútbol",
+    "exampleSentence": "Ejemplo: El fin de semana pasado nosotros jugamos al fútbol en el parque. (Español)\nBeispiel: Am vergangenen Wochenende haben wir im Park Fußball gespielt. (Alemán)\nExample: Last weekend, we played soccer in the park. (Inglés)"
+    },
+    {
+    "question": "¿Qué significa 'caminé' en inglés? Explica esta regla gramatical.",
+    "options": [
+    "I walk",
+    "I am walking",
+    "I will walk",
+    "I walked"
+    ],
+    "correctAnswer": "I walked",
+    "exampleSentence": "Ejemplo: Ayer caminé por el parque y disfruté del hermoso paisaje. (Español)\nBeispiel: Gestern bin ich durch den Park spaziert und habe die schöne Landschaft genossen. (Alemán)\nExample: Yesterday, I walked through the park and enjoyed the beautiful scenery. (Inglés)"
+    },
+    {
+    "question": "¿Cuál es la conjugación correcta del verbo 'tener' en segunda persona del singular en pasado? Explica esta regla gramatical.",
+    "options": [
+    "Tenía",
+    "Tuve",
+    "Tendrás",
+    "Tenías"
+    ],
+    "correctAnswer": "Tuviste",
+    "exampleSentence": "Ejemplo: Anoche tú tuviste una excelente idea para el proyecto. (Español)\nBeispiel: Gestern hattest du eine ausgezeichnete Idee für das Projekt. (Alemán)\nExample: Last night, you had an excellent idea for the project. (Inglés)"
+    },
+    {
+    "question": "¿Cómo se dice 'They danced all night' en español? Explica esta regla gramatical.",
+    "options": [
+    "Ellos bailaron toda la noche",
+    "Ellos bailan toda la noche",
+    "Ellos bailarán toda la noche",
+    "Ellos bailaban toda la noche"
+    ],
+    "correctAnswer": "Ellos bailaron toda la noche",
+    "exampleSentence": "Ejemplo: En la fiesta, ellos bailaron toda la noche sin descanso. (Español)\nBeispiel: Auf der Party haben sie die ganze Nacht ohne Unterbrechung getanzt. (Alemán)\nExample: At the party, they danced all night without a break. (Inglés)"
+    },
+    {
+    "question": "¿Cuál es la forma correcta del verbo 'ver' en primera persona del singular en pasado? Explica esta regla gramatical.",
+    "options": [
+    "Veía",
+    "Ves",
+    "Vio",
+    "Vi"
+    ],
+    "correctAnswer": "Vi",
+    "exampleSentence": "Ejemplo: Cuando era joven, yo vi a mi artista favorito en concierto. (Español)\nBeispiel: Als ich jung war, habe ich meinen Lieblingskünstler auf einem Konzert gesehen. (Alemán)\nExample: When I was young, I saw my favorite artist in concert. (Inglés)"
+    },
+    {
+    "question": "¿Cómo se dice 'She studied for hours' en español? Explica esta regla gramatical.",
+    "options": [
+    "Ella estudia por horas",
+    "Ella estudiará por horas",
+    "Ella estudiaba por horas",
+    "Ella estudió por horas"
+    ],
+    "correctAnswer": "Ella estudió por horas",
+    "exampleSentence": "Ejemplo: Ella fue diligente y ella estudió por horas para el examen. (Español)\nBeispiel: Sie war fleißig und sie hat stundenlang für die Prüfung gelernt. (Alemán)\nExample: She was diligent, and she studied for hours for the exam. (Inglés)"
+    },
+    {
+    "question": "¿Cuál es la conjugación correcta del verbo 'poder' en tercera persona del plural en pasado? Explica esta regla gramatical.",
+    "options": [
+    "Podemos",
+    "Pudisteis",
+    "Pueden",
+    "Pudieron"
+    ],
+    "correctAnswer": "Pudieron",
+    "exampleSentence": "Ejemplo: Ellos tenían la habilidad y pudieron resolver la tarea difícil. (Español)\nBeispiel: Sie hatten die Fähigkeit und konnten die schwierige Aufgabe lösen. (Alemán)\nExample: They had the ability and could solve the difficult task. (Inglés)"
+    },
+    {
+    "question": "¿Cómo se traduce la frase 'I wrote a letter' al español? Explica esta regla gramatical.",
+    "options": [
+    "Yo escribí una carta",
+    "Yo escribe una carta",
+    "Yo escribiré una carta",
+    "Yo escribo una carta"
+    ],
+    "correctAnswer": "Yo escribí una carta",
+    "exampleSentence": "Ejemplo: Ayer yo escribí una carta a mi amiga. (Español)\nBeispiel: Gestern habe ich einen Brief an meine Freundin geschrieben. (Alemán)\nExample: Yesterday, I wrote a letter to my friend. (Inglés)"
+    },
+    {
+    "question": "¿Cuál es la forma correcta del verbo 'cantar' en segunda persona del plural en pasado? Explica esta regla gramatical.",
+    "options": [
+    "Cantaban",
+    "Canto",
+    "Cantáis",
+    "Cantasteis"
+    ],
+    "correctAnswer": "Cantasteis",
+    "exampleSentence": "Ejemplo: En la fiesta vosotros cantasteis canciones y crearon un buen ambiente. (Español)\nBeispiel: Auf der Feier habt ihr Lieder gesungen und eine gute Stimmung verbreitet. (Alemán)\nExample: At the party, you all sang songs and created a good atmosphere. (Inglés)"
+    },
+    {
+    "question": "¿Cómo se dice 'We visited the museum' en español? Explica esta regla gramatical.",
+    "options": [
+    "Nosotros visitamos el museo",
+    "Nosotros visita el museo",
+    "Nosotros visitará el museo",
+    "Nosotros visitábamos el museo"
+    ],
+    "correctAnswer": "Nosotros visitamos el museo",
+    "exampleSentence": "Ejemplo: El fin de semana nosotros visitamos el museo y vimos las exposiciones. (Español)\nBeispiel: Am Wochenende haben wir das Museum besucht und uns die Ausstellungen angesehen. (Alemán)\nExample: Last weekend, we visited the museum and saw the exhibits. (Inglés)"
+    },
+    {
+    "question": "¿Cuál es la conjugación correcta del verbo 'decidir' en primera persona del singular en pasado? Explica esta regla gramatical.",
+    "options": [
+    "Decidí",
+    "Decido",
+    "Decidirá",
+    "Decidía"
+    ],
+    "correctAnswer": "Decidí",
+    "exampleSentence": "Ejemplo: La semana pasada decidí tomar unas vacaciones espontáneas. (Español)\nBeispiel: Letzte Woche habe ich beschlossen, spontan in den Urlaub zu fahren. (Alemán)\nExample: Last week, I decided to take a spontaneous vacation. (Inglés)"
+    },
+{
+"question": "¿Cómo se forma la forma pasada (pretérito) en español en segunda persona del plural mediante la adición de -aste/-iste a los verbos? Explica esta regla gramatical.",
+"options": [
+"Añadiendo -aste/-iste a los verbos",
+"Usando el presente del verbo 'haber'",
+"Cambiando el radical del verbo",
+"No hay forma pasada en español"
+],
+"correctAnswer": "Añadiendo -aste/-iste a los verbos",
+"exampleSentence": "Ejemplo: Vosotros bailasteis en la fiesta toda la noche. (Español)\nBeispiel: Ihr habt die ganze Nacht auf der Party getanzt. (Alemán)\nExample: You all danced all night at the party. (Inglés)"
+},
+{
+"question": "¿Cuál es la conjugación correcta del verbo 'caminar' en tercera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Caminaba",
+"Caminó",
+"Caminará",
+"Caminaría"
+],
+"correctAnswer": "Caminaba",
+"exampleSentence": "Ejemplo: Ella caminaba por el parque cada mañana. (Español)\nBeispiel: Sie spazierte jeden Morgen durch den Park. (Alemán)\nExample: She used to walk through the park every morning. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'They worked hard' en español? Explica esta regla gramatical.",
+"options": [
+"Ellos trabajan duro",
+"Ellos trabajarán duro",
+"Ellos trabajaban duro",
+"Ellos trabaja duro"
+],
+"correctAnswer": "Ellos trabajaban duro",
+"exampleSentence": "Ejemplo: Ellos trabajaban duro para alcanzar sus metas. (Español)\nBeispiel: Sie haben hart gearbeitet, um ihre Ziele zu erreichen. (Alemán)\nExample: They worked hard to achieve their goals. (Inglés)"
+},
+{
+"question": "¿Cuál es la forma correcta del verbo 'comer' en primera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Comía",
+"Comeré",
+"Comí",
+"Comería"
+],
+"correctAnswer": "Comí",
+"exampleSentence": "Ejemplo: Yo comí sushi en el restaurante nuevo. (Español)\nBeispiel: Ich habe Sushi im neuen Restaurant gegessen. (Alemán)\nExample: I ate sushi at the new restaurant. (Inglés)"
+},
+{
+"question": "¿Cómo se traduce la frase 'We sang songs together' al español? Explica esta regla gramatical.",
+"options": [
+"Nosotros cantamos canciones juntos",
+"Nosotros canta canciones juntos",
+"Nosotros cantará canciones juntos",
+"Nosotros cantábamos canciones juntos"
+],
+"correctAnswer": "Nosotros cantábamos canciones juntos",
+"exampleSentence": "Ejemplo: Nosotros cantábamos canciones juntos en el viaje. (Español)\nBeispiel: Wir haben gemeinsam Lieder auf der Reise gesungen. (Alemán)\nExample: We sang songs together on the trip. (Inglés)"
+},
+{
+"question": "¿Qué significa 'leíste' en inglés? Explica esta regla gramatical.",
+"options": [
+"You read",
+"I read",
+"He reads",
+"We read"
+],
+"correctAnswer": "You read",
+"exampleSentence": "Ejemplo: Tú leíste un libro interesante el fin de semana. (Español)\nBeispiel: Du hast am Wochenende ein interessantes Buch gelesen. (Alemán)\nExample: You read an interesting book over the weekend. (Inglés)"
+},
+{
+"question": "¿Cuál es la conjugación correcta del verbo 'vivir' en tercera persona del plural en pasado? Explica esta regla gramatical.",
+"options": [
+"Vivía",
+"Vivieron",
+"Vivirán",
+"Viviría"
+],
+"correctAnswer": "Vivieron",
+"exampleSentence": "Ejemplo: Ellos vivieron en esa ciudad durante muchos años. (Español)\nBeispiel: Sie haben viele Jahre in dieser Stadt gelebt. (Alemán)\nExample: They lived in that city for many years. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'I wrote poems' en español? Explica esta regla gramatical.",
+"options": [
+"Yo escribe poemas",
+"Yo escribiré poemas",
+"Yo escribía poemas",
+"Yo escribí poemas"
+],
+"correctAnswer": "Yo escribí poemas",
+"exampleSentence": "Ejemplo: Yo escribí poemas durante mi tiempo libre. (Español)\nBeispiel: Ich habe Gedichte in meiner Freizeit geschrieben. (Alemán)\nExample: I wrote poems during my free time. (Inglés)"
+},
+{
+"question": "¿Cuál es la forma correcta del verbo 'poder' en primera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Podía",
+"Pude",
+"Poderé",
+"Podías"
+],
+"correctAnswer": "Pude",
+"exampleSentence": "Ejemplo: Yo pude resolver el problema matemático. (Español)\nBeispiel: Ich konnte das mathematische Problem lösen. (Alemán)\nExample: I could solve the mathematical problem. (Inglés)"
+},
+{
+"question": "¿Cómo se traduce la frase 'They visited historical sites' al español? Explica esta regla gramatical.",
+"options": [
+"Ellos visita sitios históricos",
+"Ellos visitaron sitios históricos",
+"Ellos visitarán sitios históricos",
+"Ellos visitaban sitios históricos"
+],
+"correctAnswer": "Ellos visitaron sitios históricos",
+"exampleSentence": "Ejemplo: Ellos visitaron sitios históricos durante sus vacaciones. (Español)\nBeispiel: Sie haben historische Stätten während ihres Urlaubs besucht. (Alemán)\nExample: They visited historical sites during their vacation. (Inglés)"
+},
+{
+"question": "¿Cuál es la conjugación correcta del verbo 'haber' en tercera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Había",
+"Habrá",
+"Hube",
+"Habías"
+],
+"correctAnswer": "Había",
+"exampleSentence": "Ejemplo: Había muchos estudiantes en la biblioteca ayer. (Español)\nBeispiel: Gestern gab es viele Studenten in der Bibliothek. (Alemán)\nExample: There were many students in the library yesterday. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'We danced at the party' en español? Explica esta regla gramatical.",
+"options": [
+"Nosotros bailamos en la fiesta",
+"Nosotros bailará en la fiesta",
+"Nosotros bailábamos en la fiesta",
+"Nosotros bailan en la fiesta"
+],
+"correctAnswer": "Nosotros bailamos en la fiesta",
+"exampleSentence": "Ejemplo: Nosotros bailamos en la fiesta de cumpleaños. (Español)\nBeispiel: Wir haben auf der Geburtstagsparty getanzt. (Alemán)\nExample: We danced at the birthday party. (Inglés)"
+},
+{
+"question": "¿Cuál es la forma correcta del verbo 'leer' en segunda persona del plural en pasado? Explica esta regla gramatical.",
+"options": [
+"Leía",
+"Leísteis",
+"Leeréis",
+"Leerás"
+],
+"correctAnswer": "Leísteis",
+"exampleSentence": "Ejemplo: Vosotros leísteis el libro en una sola noche. (Español)\nBeispiel: Ihr habt das Buch an einem einzigen Abend gelesen. (Alemán)\nExample: You all read the book in a single night. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'She spoke three languages' en español? Explica esta regla gramatical.",
+"options": [
+"Ella habla tres idiomas",
+"Ella hablará tres idiomas",
+"Ella hablaba tres idiomas",
+"Ella habló tres idiomas"
+],
+"correctAnswer": "Ella hablaba tres idiomas",
+"exampleSentence": "Ejemplo: Ella hablaba tres idiomas con fluidez. (Español)\nBeispiel: Sie sprach fließend drei Sprachen. (Alemán)\nExample: She spoke three languages fluently. (Inglés)"
+},
+{
+"question": "¿Cuál es la conjugación correcta del verbo 'poner' en tercera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Pusieron",
+"Pones",
+"Ponía",
+"Puso"
+],
+"correctAnswer": "Puso",
+"exampleSentence": "Ejemplo: Ella puso las llaves sobre la mesa. (Español)\nBeispiel: Sie legte die Schlüssel auf den Tisch. (Alemán)\nExample: She put the keys on the table. (Inglés)"
+},
+{
+"question": "¿Cómo se traduce la frase 'I swam in the ocean' al español? Explica esta regla gramatical.",
+"options": [
+"Yo nada en el océano",
+"Yo nadará en el océano",
+"Yo nadaba en el océano",
+"Yo nadaré en el océano"
+],
+"correctAnswer": "Yo nadaba en el océano",
+"exampleSentence": "Ejemplo: Yo nadaba en el océano durante mis vacaciones. (Español)\nBeispiel: Ich habe im Urlaub im Ozean geschwommen. (Alemán)\nExample: I swam in the ocean during my vacation. (Inglés)"
+},
+{
+"question": "¿Cuál es la forma correcta del verbo 'decir' en primera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Digo",
+"Dije",
+"Diré",
+"Decía"
+],
+"correctAnswer": "Dije",
+"exampleSentence": "Ejemplo: Yo dije la verdad durante la reunión. (Español)\nBeispiel: Ich habe während des Treffens die Wahrheit gesagt. (Alemán)\nExample: I told the truth during the meeting. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'They bought a new car' en español? Explica esta regla gramatical.",
+"options": [
+"Ellos compran un coche nuevo",
+"Ellos comprarán un coche nuevo",
+"Ellos compraban un coche nuevo",
+"Ellos compraron un coche nuevo"
+],
+"correctAnswer": "Ellos compraron un coche nuevo",
+"exampleSentence": "Ejemplo: Ellos compraron un coche nuevo el mes pasado. (Español)\nBeispiel: Sie haben letzten Monat ein neues Auto gekauft. (Alemán)\nExample: They bought a new car last month. (Inglés)"
+},
+{
+"question": "¿Cuál es la conjugación correcta del verbo 'ser' en tercera persona del plural en pasado? Explica esta regla gramatical.",
+"options": [
+"Son",
+"Fueron",
+"Serán",
+"Eran"
+],
+"correctAnswer": "Fueron",
+"exampleSentence": "Ejemplo: Ellos fueron los ganadores del torneo. (Español)\nBeispiel: Sie waren die Gewinner des Turniers. (Alemán)\nExample: They were the winners of the tournament. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'I studied art' en español? Explica esta regla gramatical.",
+"options": [
+"Yo estudia arte",
+"Yo estudiaré arte",
+"Yo estudiaba arte",
+"Yo estudié arte"
+],
+"correctAnswer": "Yo estudiaba arte",
+"exampleSentence": "Ejemplo: Yo estudiaba arte en la universidad. (Español)\nBeispiel: Ich habe Kunst an der Universität studiert. (Alemán)\nExample: I studied art at the university. (Inglés)"
+},
+{
+"question": "¿Cuál es la conjugación correcta del verbo 'correr' en tercera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Corría",
+"Corre",
+"Corrió",
+"Correrá"
+],
+"correctAnswer": "Corrió",
+"exampleSentence": "Ejemplo: Ella corrió en la maratón. (Español)\nBeispiel: Sie ist den Marathon gelaufen. (Alemán)\nExample: She ran in the marathon. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'They wrote a book' en español? Explica esta regla gramatical.",
+"options": [
+"Ellos escriben un libro",
+"Ellos escribirán un libro",
+"Ellos escribían un libro",
+"Ellos escribieron un libro"
+],
+"correctAnswer": "Ellos escribieron un libro",
+"exampleSentence": "Ejemplo: Ellos escribieron un libro juntos. (Español)\nBeispiel: Sie haben zusammen ein Buch geschrieben. (Alemán)\nExample: They wrote a book together. (Inglés)"
+},
+{
+"question": "¿Cuál es la forma correcta del verbo 'vivir' en primera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Viví",
+"Vivo",
+"Viviré",
+"Vivía"
+],
+"correctAnswer": "Viví",
+"exampleSentence": "Ejemplo: Yo viví en esa ciudad durante cinco años. (Español)\nBeispiel: Ich habe fünf Jahre lang in dieser Stadt gewohnt. (Alemán)\nExample: I lived in that city for five years. (Inglés)"
+},
+{
+"question": "¿Cómo se traduce la frase 'She danced gracefully' al español? Explica esta regla gramatical.",
+"options": [
+"Ella bailó con gracia",
+"Ella baila con gracia",
+"Ella bailará con gracia",
+"Ella bailaba con gracia"
+],
+"correctAnswer": "Ella bailó con gracia",
+"exampleSentence": "Ejemplo: Ella bailó con gracia en la presentación. (Español)\nBeispiel: Sie hat anmutig bei der Vorstellung getanzt. (Alemán)\nExample: She danced gracefully in the performance. (Inglés)"
+},
+{
+"question": "¿Cuál es la conjugación correcta del verbo 'decidir' en tercera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Decidía",
+"Decide",
+"Decidirá",
+"Decidió"
+],
+"correctAnswer": "Decidió",
+"exampleSentence": "Ejemplo: Él decidó cambiar de carrera. (Español)\nBeispiel: Er hat sich entschieden, den Beruf zu wechseln. (Alemán)\nExample: He decided to change careers. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'We watched a movie' en español? Explica esta regla gramatical.",
+"options": [
+"Nosotros miramos una película",
+"Nosotros mira una película",
+"Nosotros mirará una película",
+"Nosotros mirábamos una película"
+],
+"correctAnswer": "Nosotros miramos una película",
+"exampleSentence": "Ejemplo: Ayer nosotros miramos una película interesante. (Español)\nBeispiel: Gestern haben wir einen interessanten Film angeschaut. (Alemán)\nExample: Yesterday, we watched an interesting movie. (Inglés)"
+},
+{
+"question": "¿Cuál es la forma correcta del verbo 'trabajar' en segunda persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Trabajas",
+"Trabajo",
+"Trabajaba",
+"Trabajaste"
+],
+"correctAnswer": "Trabajaste",
+"exampleSentence": "Ejemplo: Tú trabajaste duro ayer. (Español)\nBeispiel: Du hast gestern hart gearbeitet. (Alemán)\nExample: You worked hard yesterday. (Inglés)"
+},
+{
+"question": "¿Cómo se traduce la frase 'They sang beautifully' al español? Explica esta regla gramatical.",
+"options": [
+"Ellos cantaban hermosamente",
+"Ellos canta hermosamente",
+"Ellos cantarán hermosamente",
+"Ellos cantaron hermosamente"
+],
+"correctAnswer": "Ellos cantaron hermosamente",
+"exampleSentence": "Ejemplo: En el concierto, ellos cantaron hermosamente. (Español)\nBeispiel: Bei dem Konzert haben sie wunderschön gesungen. (Alemán)\nExample: At the concert, they sang beautifully. (Inglés)"
+},
+{
+"question": "¿Cuál es la conjugación correcta del verbo 'hablar' en tercera persona del plural en pasado? Explica esta regla gramatical.",
+"options": [
+"Hablaba",
+"Hablo",
+"Hablará",
+"Hablaron"
+],
+"correctAnswer": "Hablaron",
+"exampleSentence": "Ejemplo: Ellos hablaron sobre el proyecto. (Español)\nBeispiel: Sie haben über das Projekt gesprochen. (Alemán)\nExample: They talked about the project. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'I studied in the library' en español? Explica esta regla gramatical.",
+"options": [
+"Yo estudio en la biblioteca",
+"Yo estudiaré en la biblioteca",
+"Yo estudiaba en la biblioteca",
+"Yo estudié en la biblioteca"
+],
+"correctAnswer": "Yo estudié en la biblioteca",
+"exampleSentence": "Ejemplo: Ayer yo estudié en la biblioteca. (Español)\nBeispiel: Gestern habe ich in der Bibliothek gelernt. (Alemán)\nExample: Yesterday, I studied in the library. (Inglés)"
+},
+{
+"question": "¿Cuál es la forma correcta del verbo 'comer' en primera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Comí",
+"Como",
+"Comeré",
+"Comía"
+],
+"correctAnswer": "Comí",
+"exampleSentence": "Ejemplo: Anoche yo comí una deliciosa cena. (Español)\nBeispiel: Gestern Abend habe ich ein köstliches Abendessen gegessen. (Alemán)\nExample: Last night, I ate a delicious dinner. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'They visited the historical sites' en español? Explica esta regla gramatical.",
+"options": [
+"Ellos visitaron los sitios históricos",
+"Ellos visita los sitios históricos",
+"Ellos visitará los sitios históricos",
+"Ellos visitaban los sitios históricos"
+],
+"correctAnswer": "Ellos visitaron los sitios históricos",
+"exampleSentence": "Ejemplo: Durante las vacaciones, ellos visitaron los sitios históricos. (Español)\nBeispiel: Während des Urlaubs haben sie die historischen Stätten besucht. (Alemán)\nExample: During the holidays, they visited the historical sites. (Inglés)"
+},
+{
+"question": "¿Cuál es la conjugación correcta del verbo 'poder' en primera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Podía",
+"Pude",
+"Poderé",
+"Podería"
+],
+"correctAnswer": "Pude",
+"exampleSentence": "Ejemplo: Ayer yo pude resolver el problema. (Español)\nBeispiel: Gestern konnte ich das Problem lösen. (Alemán)\nExample: Yesterday, I was able to solve the problem. (Inglés)"
+},
+{
+"question": "¿Cómo se traduce la frase 'We swam in the ocean' al español? Explica esta regla gramatical.",
+"options": [
+"Nosotros nadamos en el océano",
+"Nosotros nada en el océano",
+"Nosotros nadará en el océano",
+"Nosotros nadábamos en el océano"
+],
+"correctAnswer": "Nosotros nadamos en el océano",
+"exampleSentence": "Ejemplo: Durante las vacaciones, nosotros nadamos en el océano. (Español)\nBeispiel: Während des Urlaubs haben wir im Ozean geschwommen. (Alemán)\nExample: During the vacation, we swam in the ocean. (Inglés)"
+},
+{
+"question": "¿Cuál es la forma correcta del verbo 'beber' en tercera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Bebía",
+"Bebes",
+"Bebió",
+"Bebo"
+],
+"correctAnswer": "Bebió",
+"exampleSentence": "Ejemplo: Anoche ella bebió un vaso de agua. (Español)\nBeispiel: Gestern Abend hat sie ein Glas Wasser getrunken. (Alemán)\nExample: Last night, she drank a glass of water. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'I played the guitar' en español? Explica esta regla gramatical.",
+"options": [
+"Yo jugué la guitarra",
+"Yo juega la guitarra",
+"Yo jugará la guitarra",
+"Yo jugaba la guitarra"
+],
+"correctAnswer": "Yo jugué la guitarra",
+"exampleSentence": "Ejemplo: Durante la fiesta, yo jugué la guitarra. (Español)\nBeispiel: Auf der Party habe ich Gitarre gespielt. (Alemán)\nExample: During the party, I played the guitar. (Inglés)"
+},
+{
+"question": "¿Cuál es la conjugación correcta del verbo 'entender' en tercera persona del plural en pasado? Explica esta regla gramatical.",
+"options": [
+"Entienden",
+"Entendió",
+"Entendían",
+"Entenderán"
+],
+"correctAnswer": "Entendían",
+"exampleSentence": "Ejemplo: Ellos entendían perfectamente la situación. (Español)\nBeispiel: Sie haben die Situation perfekt verstanden. (Alemán)\nExample: They understood the situation perfectly. (Inglés)"
+},
+{
+"question": "¿Cómo se traduce la frase 'She painted a beautiful landscape' al español? Explica esta regla gramatical.",
+"options": [
+"Ella pinta un hermoso paisaje",
+"Ella pintará un hermoso paisaje",
+"Ella pintaba un hermoso paisaje",
+"Ella pintó un hermoso paisaje"
+],
+"correctAnswer": "Ella pintó un hermoso paisaje",
+"exampleSentence": "Ejemplo: Ella pintó un hermoso paisaje en su lienzo. (Español)\nBeispiel: Sie hat ein wunderschönes Landschaftsbild auf ihrer Leinwand gemalt. (Alemán)\nExample: She painted a beautiful landscape on her canvas. (Inglés)"
+},
+{
+"question": "¿Cuál es la forma correcta del verbo 'conducir' en segunda persona del plural en pasado? Explica esta regla gramatical.",
+"options": [
+"Conducíais",
+"Conduces",
+"Condujo",
+"Conducisteis"
+],
+"correctAnswer": "Conducisteis",
+"exampleSentence": "Ejemplo: Vosotros conducisteis durante todo el viaje. (Español)\nBeispiel: Ihr habt die ganze Reise über gefahren. (Alemán)\nExample: You all drove throughout the entire trip. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'They bought new clothes' en español? Explica esta regla gramatical.",
+"options": [
+"Ellos compran ropa nueva",
+"Ellos comprarán ropa nueva",
+"Ellos compraban ropa nueva",
+"Ellos compraron ropa nueva"
+],
+"correctAnswer": "Ellos compraron ropa nueva",
+"exampleSentence": "Ejemplo: En las rebajas, ellos compraron ropa nueva. (Español)\nBeispiel: Im Sale haben sie neue Kleidung gekauft. (Alemán)\nExample: During the sale, they bought new clothes. (Inglés)"
+},
+{
+"question": "¿Cómo se forma la forma pasada (pretérito) en español en primera persona del plural añadiendo -amos/-íamos a los verbos? Explica esta regla gramatical.",
+"options": [
+"Añadiendo -amos/-íamos a los verbos",
+"Usando el presente del verbo 'haber'",
+"Cambiando el radical del verbo",
+"No hay forma pasada en español"
+],
+"correctAnswer": "Añadiendo -amos/-íamos a los verbos",
+"exampleSentence": "Ejemplo: Nosotros trabajamos toda la noche. (Español)\nBeispiel: Wir haben die ganze Nacht gearbeitet. (Alemán)\nExample: We worked all night. (Inglés)"
+},
+{
+"question": "¿Cuál es la conjugación correcta del verbo 'correr' en segunda persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Corría",
+"Corro",
+"Corrí",
+"Correría"
+],
+"correctAnswer": "Corrías",
+"exampleSentence": "Ejemplo: Tú corrías rápidamente en la competición. (Español)\nBeispiel: Du bist schnell im Wettkampf gelaufen. (Alemán)\nExample: You ran quickly in the competition. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'They studied all day' en español? Explica esta regla gramatical.",
+"options": [
+"Ellos estudian todo el día",
+"Ellos estudiarán todo el día",
+"Ellos estudiaban todo el día",
+"Ellos estudiaron todo el día"
+],
+"correctAnswer": "Ellos estudiaron todo el día",
+"exampleSentence": "Ejemplo: Ellos fueron dedicados y estudiaron todo el día para el examen. (Español)\nBeispiel: Sie waren fleißig und haben den ganzen Tag für die Prüfung gelernt. (Alemán)\nExample: They were diligent and studied all day for the exam. (Inglés)"
+},
+{
+"question": "¿Cuál es la forma correcta del verbo 'trabajar' en tercera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Trabajó",
+"Trabajaría",
+"Trabajaba",
+"Trabajando"
+],
+"correctAnswer": "Trabajó",
+"exampleSentence": "Ejemplo: Ella trabajó en la oficina ayer. (Español)\nBeispiel: Sie hat gestern im Büro gearbeitet. (Alemán)\nExample: She worked in the office yesterday. (Inglés)"
+},
+{
+"question": "¿Cómo se traduce la frase 'We swam in the lake' al español? Explica esta regla gramatical.",
+"options": [
+"Nosotros nada en el lago",
+"Nosotros nadamos en el lago",
+"Nosotros nadará en el lago",
+"Nosotros nadábamos en el lago"
+],
+"correctAnswer": "Nosotros nadamos en el lago",
+"exampleSentence": "Ejemplo: El verano pasado nosotros nadamos en el lago. (Español)\nBeispiel: Im letzten Sommer haben wir im See geschwommen. (Alemán)\nExample: Last summer, we swam in the lake. (Inglés)"
+},
+{
+"question": "¿Qué significa 'escribíamos' en inglés? Explica esta regla gramatical.",
+"options": [
+"We write",
+"We wrote",
+"We will write",
+"We are writing"
+],
+"correctAnswer": "We wrote",
+"exampleSentence": "Ejemplo: Ayer nosotros escribíamos una carta. (Español)\nBeispiel: Gestern haben wir einen Brief geschrieben. (Alemán)\nExample: Yesterday, we wrote a letter. (Inglés)"
+},
+{
+"question": "¿Cuál es la conjugación correcta del verbo 'caminar' en primera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Caminaba",
+"Camino",
+"Caminé",
+"Caminaría"
+],
+"correctAnswer": "Caminaba",
+"exampleSentence": "Ejemplo: Yo caminaba por el parque todos los días. (Español)\nBeispiel: Ich bin jeden Tag durch den Park spaziert. (Alemán)\nExample: I walked through the park every day. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'He played the guitar' en español? Explica esta regla gramatical.",
+"options": [
+"Él tocaba la guitarra",
+"Él tocará la guitarra",
+"Él toca la guitarra",
+"Él tocó la guitarra"
+],
+"correctAnswer": "Él tocó la guitarra",
+"exampleSentence": "Ejemplo: Durante la fiesta él tocó la guitarra. (Español)\nBeispiel: Während der Party hat er Gitarre gespielt. (Alemán)\nExample: During the party, he played the guitar. (Inglés)"
+},
+{
+"question": "¿Cuál es la forma correcta del verbo 'beber' en tercera persona del plural en pasado? Explica esta regla gramatical.",
+"options": [
+"Beben",
+"Bebieron",
+"Bebería",
+"Bebían"
+],
+"correctAnswer": "Bebieron",
+"exampleSentence": "Ejemplo: En la celebración ellos bebieron champán. (Español)\nBeispiel: Bei der Feier haben sie Champagner getrunken. (Alemán)\nExample: At the celebration, they drank champagne. (Inglés)"
+},
+{
+"question": "¿Cómo se traduce la frase 'I slept well' al español? Explica esta regla gramatical.",
+"options": [
+"Yo duermo bien",
+"Yo dormiré bien",
+"Yo dormía bien",
+"Yo dormí bien"
+],
+"correctAnswer": "Yo dormí bien",
+"exampleSentence": "Ejemplo: Anoche yo dormí bien. (Español)\nBeispiel: Gestern Nacht habe ich gut geschlafen. (Alemán)\nExample: Last night, I slept well. (Inglés)"
+},
+{
+"question": "¿Qué significa 'comíais' en inglés? Explica esta regla gramatical.",
+"options": [
+"You eat",
+"You ate",
+"You will eat",
+"You are eating"
+],
+"correctAnswer": "You ate",
+"exampleSentence": "Ejemplo: Durante las vacaciones vosotros comíais helado todos los días. (Español)\nBeispiel: Während des Urlaubs habt ihr jeden Tag Eis gegessen. (Alemán)\nExample: During the holidays, you all ate ice cream every day. (Inglés)"
+},
+{
+"question": "¿Cuál es la conjugación correcta del verbo 'tener' en primera persona del plural en pasado? Explica esta regla gramatical.",
+"options": [
+"Tenemos",
+"Tuve",
+"Tendremos",
+"Teníamos"
+],
+"correctAnswer": "Teníamos",
+"exampleSentence": "Ejemplo: Cuando éramos jóvenes, nosotros teníamos muchos sueños. (Español)\nBeispiel: Als wir jung waren, hatten wir viele Träume. (Alemán)\nExample: When we were young, we had many dreams. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'She danced gracefully' en español? Explica esta regla gramatical.",
+"options": [
+"Ella baila graciosamente",
+"Ella bailará graciosamente",
+"Ella bailando graciosamente",
+"Ella bailó graciosamente"
+],
+"correctAnswer": "Ella bailó graciosamente",
+"exampleSentence": "Ejemplo: En la presentación, ella bailó graciosamente. (Español)\nBeispiel: Bei der Vorführung hat sie anmutig getanzt. (Alemán)\nExample: In the performance, she danced gracefully. (Inglés)"
+},
+{
+"question": "¿Cuál es la forma correcta del verbo 'pensar' en segunda persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Piensas",
+"Pensé",
+"Pensabas",
+"Pensarías"
+],
+"correctAnswer": "Pensabas",
+"exampleSentence": "Ejemplo: Tú pensabas en la solución durante la reunión. (Español)\nBeispiel: Du hast während des Meetings über die Lösung nachgedacht. (Alemán)\nExample: You were thinking about the solution during the meeting. (Inglés)"
+},
+{
+"question": "¿Cómo se traduce la frase 'They traveled to Europe' al español? Explica esta regla gramatical.",
+"options": [
+"Ellos viajan a Europa",
+"Ellos viajarán a Europa",
+"Ellos viajaban a Europa",
+"Ellos viajaron a Europa"
+],
+"correctAnswer": "Ellos viajaron a Europa",
+"exampleSentence": "Ejemplo: El año pasado ellos viajaron a Europa. (Español)\nBeispiel: Letztes Jahr sind sie nach Europa gereist. (Alemán)\nExample: Last year, they traveled to Europe. (Inglés)"
+},
+{
+"question": "¿Qué significa 'leíste' en inglés? Explica esta regla gramatical.",
+"options": [
+"You read",
+"You will read",
+"You are reading",
+"You have read"
+],
+"correctAnswer": "You read",
+"exampleSentence": "Ejemplo: Durante las vacaciones tú leíste varios libros. (Español)\nBeispiel: Während des Urlaubs hast du mehrere Bücher gelesen. (Alemán)\nExample: During the holidays, you read several books. (Inglés)"
+},
+{
+"question": "¿Cuál es la conjugación correcta del verbo 'volver' en tercera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Volvería",
+"Vuelve",
+"Volvió",
+"Volviendo"
+],
+"correctAnswer": "Volvió",
+"exampleSentence": "Ejemplo: Después de las vacaciones, ella volvió al trabajo. (Español)\nBeispiel: Nach dem Urlaub ist sie zur Arbeit zurückgekehrt. (Alemán)\nExample: After the holidays, she returned to work. (Inglés)"
+},
+{
+"question": "¿Cómo se dice 'We played music' en español? Explica esta regla gramatical.",
+"options": [
+"Nosotros tocar música",
+"Nosotros tocará música",
+"Nosotros tocan música",
+"Nosotros tocamos música"
+],
+"correctAnswer": "Nosotros tocamos música",
+"exampleSentence": "Ejemplo: En la fiesta nosotros tocamos música en vivo. (Español)\nBeispiel: Auf der Party haben wir Live-Musik gespielt. (Alemán)\nExample: At the party, we played live music. (Inglés)"
+},
+{
+"question": "¿Cuál es la forma correcta del verbo 'conocer' en primera persona del singular en pasado? Explica esta regla gramatical.",
+"options": [
+"Conoceré",
+"Conocí",
+"Conocía",
+"Conociendo"
+],
+"correctAnswer": "Conocí",
+"exampleSentence": "Ejemplo: Cuando viajé a París, conocí a personas encantadoras. (Español)\nBeispiel: Als ich nach Paris gereist bin, habe ich charmante Leute kennengelernt. (Alemán)\nExample: When I traveled to Paris, I met lovely people. (Inglés)"
+},
+{
+"question": "¿Cómo se traduce la frase 'You wrote a poem' al español? Explica esta regla gramatical.",
+"options": [
+"Tú escribes un poema",
+"Tú escribirás un poema",
+"Tú escribías un poema",
+"Tú escribiste un poema"
+],
+"correctAnswer": "Tú escribiste un poema",
+"exampleSentence": "Ejemplo: Ayer tú escribiste un poema hermoso. (Español)\nBeispiel: Gestern hast du ein wunderschönes Gedicht geschrieben. (Alemán)\nExample: Yesterday, you wrote a beautiful poem. (Inglés)"
+}
+]
