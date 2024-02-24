@@ -18,6 +18,28 @@
     </style>
 <body>
     <script>
+class Scene1 extends Phaser.Scene {
+    constructor() {
+        super("bootGame");
+    }
+    create() {
+        this.add.text(20,20,"Loading Game");
+        this.scene.start("playGame");
+    }
+}
+class Scene2 extends Phaser.Scene {
+    constructor() {
+        super("playGame")
+    }
+
+    preload() {
+    // to be filled
+    }
+    create() {
+    this.add.text(20,20,"Playing Game");// to be filled
+  }
+}
+
         const gameConfig = {
             type: Phaser.AUTO,
             width: 800,
@@ -29,11 +51,7 @@
                     debug: false
                 }
             },
-            scene: {
-                preload: preload,
-                create: create,
-                update: update
-            }
+            scene: [Scene1, Scene2]
         };
 
         let game = new Phaser.Game(gameConfig);
@@ -392,7 +410,8 @@ function centipedeHitMushroom(centipedeSegment, mushroom) {
 function restartGame() {
     // Clear existing game elements
     player.destroy();
-
+ //    this.scene.shake(500);
+    // this.game.camera.shake(0.05, 500);
     gameOverSound.play(); // Play the game over sound
     // window.location.reload();
 
@@ -421,7 +440,7 @@ function checkCentipedeCollision() {
     });
 }
 
-function moveSpider() {
+const moveSpider = () =>  {
     // Simple movement for the spider (you can customize this)
     spider.y += 2;
     // Ensure spider and spider.body are defined
@@ -454,7 +473,10 @@ function moveSpider() {
         textScore.setText('Score: ' + score);
         spider.y = 0;
         spider.x = Phaser.Math.Between(50, 750);
+        //restartGame();
         console.log('touched');
+           restartGame();
+      
     }
     
 
@@ -466,6 +488,7 @@ function createMushroom(x, y) {
     mushroomTouchedByPlayerSound.play().this;
 
 }
+
 
 </script>
 </body>
