@@ -98,7 +98,9 @@
           this.gameOverSound;
           this.mushroomTouchedByPlayerSound;
           this.score = 0; // Declare score as a property
+          this.lives = 4;
           var textScore = 0;
+          var textLives = 3;
         }
 
         preload() {
@@ -119,13 +121,6 @@
         }
 
         create() {
-          //  let destroySound;
-          //  let mushroomTouchedByPlayerSound;
-          //    let shootSound;
-
-          // let textScore;
-          //    let score = 0;
-
           // Create a background tile sprite and set its scroll factor to create a repeating pattern
           const background = this.add.tileSprite(
             400,
@@ -161,6 +156,13 @@
 
           // UI Text
           this.textScore = this.add.text(50, 10, "Score: 0", {
+            fontFamily: "VT323",
+            fontSize: "24px",
+            color: "#00ff00",
+            // fill: '#00ff00'
+          });
+          this.textLives = this.lives;
+          this.textLives = this.add.text(50, 35, `Lives: ${this.textLives}`, {
             fontFamily: "VT323",
             fontSize: "24px",
             color: "#00ff00",
@@ -307,16 +309,21 @@
         }
 
         restartGame() {
+          console.log("restart");
+          // this.player.destroy();
           // Clear existing game elements
-          this.player.destroy();
-          //    this.scene.shake(500);
-          // this.game.camera.shake(0.05, 500);
-          this.gameOverSound.play(); // Play the game over sound
+          this.gameOverSound.play();
+
+          // Play the game over sound
+
+          // this.Scene2.shake(500);
+          //  this.game.camera.shake(0.05, 500);
+
           // window.location.reload();
 
           setTimeout(() => {
             window.location.reload();
-          }, 1000);
+          }, 3000);
         }
 
         fireBullet() {
@@ -343,13 +350,15 @@
         }
 
         update() {
+          if (this.lives === 0) {
+            this.restartGame();
+          }
+
           // Update spider movement and behavior
           if (this.spider) {
             this.moveSpider();
           }
-          //textScore.setText("Score: " + this.score);
 
-          // console.log(this.score);
           const pointer = this.input.activePointer;
 
           if (pointer.isDown) {
@@ -453,7 +462,7 @@
           // Update the score when the player shoots a mushroom
           this.score += 10;
           this.textScore.setText("Score: " + this.score);
-
+          this.textLives.setText("Lives: " + this.lives);
           this.canShoot = true; // Allow shooting again
         }
 
@@ -465,6 +474,8 @@
           // Update the score
           this.score += 200;
           this.textScore.setText("Score: " + this.score);
+          this.textLives.setText("Lives: " + this.lives);
+          console.log(this.score);
           // Call the   to respawn a new spider
         }
         ///
@@ -498,30 +509,6 @@
           createNextMushroom();
         }
 
-        ////
-        //   createRandomMushrooms(count) {
-        //     const mushroomWidth = 30; // Adjust this based on your mushroom image size
-        //     const spacing = mushroomWidth * 1;
-        //     let currentIndex = 0;
-        //     let delayBetween = 100;
-        //   createNextMushroom() {
-        //     if (currentIndex < count) {
-        //             const x = Phaser.Math.Between(spacing, game.config.width - spacing);
-        //             const y = Phaser.Math.Between(spacing, game.config.height - spacing);
-
-        //             createMushroom(x, y);
-        //         //   mushroomTouchedByPlayerSound.play();
-        //             currentIndex++;
-        //             // Recursive call with a delay
-        //             setTimeout(createNextMushroom, delayBetween);
-        //             };
-        //         };
-
-        //         // Start the sequence
-        //         createNextMushroom();
-
-        //                 };
-
         centipedeHitMushroom(centipedeSegment, mushroom) {
           // Change the movement direction to avoid being pushed out of bounds
           if (
@@ -549,24 +536,8 @@
           );
         }
 
-        /*   restartGame() {
-              // Clear existing game elements
-              player.destroy();
-           //    this.scene.shake(500);
-              // this.game.camera.shake(0.05, 500);
-              gameOverSound.play(); // Play the game over sound
-              // window.location.reload();
-
-              setTimeout(() => {
-
-                  window.location.reload();
-              }, 1000);
-          }
-           */
         playerHitCentipede(player, centipedeSegment) {
-          this.gameOverSound.play();
-          this.scene.start("bootGame");
-          //   this.restartGame(); // Call the restartGame   directly
+          this.restartGame();
         }
 
         checkCentipedeCollision() {
@@ -620,6 +591,11 @@
             // Handle spider-player collision (you can customize this)
             // For example, decrease player health or trigger game over
             this.score -= 100;
+            this.lives -= 2;
+            this.textLives.setText("Lives: " + this.lives);
+            console.log(this.lives);
+            console.log(this.score);
+            this.mushroomTouchedByPlayerSound.play();
             //   this.textScore.setText('Score: ' + this.score);
             this.spider.y = 0;
             this.spider.x = Phaser.Math.Between(50, 750);
