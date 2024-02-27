@@ -27,14 +27,6 @@
           this.load.image("background", "assets/background.jpg");
         }
         create() {
-          // this.time.delayedCall(
-          //   500,
-          //   function () {
-          //     this.scene.start("playGame");
-          //   },
-          //   [],
-          //   this
-          // );
           const background = this.add.tileSprite(
             400,
             300,
@@ -80,7 +72,6 @@
           );
         }
       }
-
       class Scene2 extends Phaser.Scene {
         constructor() {
           super("playGame");
@@ -103,6 +94,7 @@
           var textScore = 0;
           var textLives = 3;
           var textWave = 1;
+          this.isPaused = false; // Add a property to track if the game is paused
         }
 
         preload() {
@@ -132,7 +124,6 @@
             "background"
           );
           background.setScrollFactor(0); // Fix the background position
-
           this.player = this.physics.add
             .sprite(200, 300, "player")
             .setScale(0.5);
@@ -345,25 +336,9 @@
 
           // Restart the game loop
           this.scene.start("bootGame");
-
-          // console.log("restart");
-          // this.player.destroy();
-          // Clear existing game elements
-
-          // Play the game over sound
-
-          // this.Scene2.shake(500);
-          //  this.game.camera.shake(0.05, 500);
-
-          // window.location.reload();
-
-          // setTimeout(() => {
-          //   window.location.reload();
-          // }, 3000);
         }
 
         fireBullet() {
-          //  console.log("test fire")
           this.bullet = this.bullets.get(this.player.x, this.player.y);
 
           if (this.bullet) {
@@ -390,6 +365,8 @@
             this.restartGame();
           }
 
+          console.log(this.isPaused);
+
           // Update spider movement and behavior
           if (this.spider) {
             this.moveSpider();
@@ -407,17 +384,6 @@
 
               // Check if the centipede segment reaches the bottom
               if (segment.y >= game.config.height - 20) {
-                // Spawn a new centipede segment at the top
-                // const newSegment = centipede.create(segment.x, 0, 'centipede').setActive(true);
-                // newSegment.setData('direction', segment.getData('direction'));
-                //    newSegment.setData('hasMovedDown', true);
-                // createRandomMushrooms(10)
-                // createCentipede
-                // Disable the current segment
-
-                // Update the score when the centipede reaches the bottom
-                // this.score -= 50; // You can adjust the penalty for letting a segment reach the bottom
-                // this.textScore.setText("Score: " + this.score);
                 segment.disableBody(true, true);
                 this.scene.start("bootGame");
                 // this.restartGame();
@@ -447,15 +413,9 @@
 
         nextLevel() {
           // Increase the difficulty or reset the game state for the next level
-          // You can modify this   based on your game design
-          // For simplicity, we'll just create a new centipede for the next level
           // Adjust the speed of existing centipedes (increase the difficulty)
 
           this.wave = this.wave + 1;
-          // console.log(this.wave);
-          // this.textWave = this.wave;
-          console.log(this.wave, this.textWave);
-
           this.textWave.setText("Wave: " + this.wave);
           this.centipede.children.iterate((segment) => {
             if (segment.active) {
@@ -465,7 +425,7 @@
           });
 
           this.createCentipede();
-          this.createRandomMushrooms(15);
+          this.createRandomMushrooms(20);
           this.createSpider();
         }
 
@@ -518,8 +478,6 @@
           this.score += 200;
           this.textScore.setText("Score: " + this.score);
           this.textLives.setText("Lives: " + this.lives);
-          // console.log(this.score);
-          // Call the   to respawn a new spider
         }
 
         createRandomMushrooms(count) {
@@ -614,8 +572,6 @@
           spider.x = Phaser.Math.Between(50, 750);
           this.destroySound.play();
           console.log("touched");
-          // Restart the game if needed
-          // this.restartGame();
         }
 
         moveSpider() {
@@ -649,31 +605,6 @@
               }
             }
           }
-
-          // console.log(Phaser.Geom.Intersects.RectangleToRectangle(player.getBounds(), spider.getBounds()));
-
-          // Check for collision with the player
-          // if (
-          //   Phaser.Geom.Intersects.RectangleToRectangle(
-          //     this.player.getBounds(),
-          //     this.spider.getBounds()
-          //   )
-          // ) {
-          //   // Handle spider-player collision (you can customize this)
-          //   // For example, decrease player health or trigger game over
-          //   this.score -= 100;
-          //   this.lives -= 2;
-          //   this.textLives.setText("Lives: " + this.lives);
-          //   console.log(this.lives);
-          //   console.log(this.score);
-          //   this.mushroomTouchedByPlayerSound.play();
-          //   this.spider.y = 0;
-          //   this.spider.x = Phaser.Math.Between(50, 750);
-          //   //restartGame();
-          //   this.destroySound.play();
-          //   console.log("touched");
-          //   //  this.spider.destroy();
-          // }
         }
 
         createMushroom(x, y) {
