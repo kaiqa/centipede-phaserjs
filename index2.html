@@ -99,8 +99,10 @@
           this.mushroomTouchedByPlayerSound;
           this.score = 0; // Declare score as a property
           this.lives = 4;
+          this.wave = 1;
           var textScore = 0;
           var textLives = 3;
+          var textWave = 1;
         }
 
         preload() {
@@ -168,6 +170,13 @@
             color: "#00ff00",
             // fill: '#00ff00'
           });
+          this.textWave = this.wave;
+          this.textWave = this.add.text(50, 55, `Wave: ${this.textWave}`, {
+            fontFamily: "VT323",
+            fontSize: "24px",
+            color: "#00ff00",
+            // fill: '#00ff00'
+          });
 
           // Create spider
           this.spider = this.physics.add
@@ -229,6 +238,13 @@
             this.centipede,
             this.playerHitCentipede.bind(this)
           );
+
+          this.physics.add.collider(
+            this.player,
+            this.spider,
+            this.playerHitSpider.bind(this)
+          );
+
           //    this.physics.add.overlap(centipede, mushrooms, centipedeHitMushroom);
           this.input.on("pointermove", (pointer) => {
             const minY = (this.game.config.height * 2) / 3;
@@ -310,9 +326,29 @@
 
         restartGame() {
           console.log("restart");
+          this.wave = 1;
+          this.gameOverSound.play();
+          // this.gameOverSound.stop();
+
+          // Reset game state
+          this.score = 0;
+          this.lives = 4;
+          this.wave = 1;
+          this.textScore.setText("Score: " + this.score);
+          this.textLives.setText("Lives: " + this.lives);
+          this.textWave.setText("Wave: " + this.wave);
+          // Reset player position
+          this.player.setPosition(200, 300);
+
+          // Enable input events
+          this.input.enabled = true;
+
+          // Restart the game loop
+          this.scene.start("bootGame");
+
+          // console.log("restart");
           // this.player.destroy();
           // Clear existing game elements
-          this.gameOverSound.play();
 
           // Play the game over sound
 
@@ -321,9 +357,9 @@
 
           // window.location.reload();
 
-          setTimeout(() => {
-            window.location.reload();
-          }, 3000);
+          // setTimeout(() => {
+          //   window.location.reload();
+          // }, 3000);
         }
 
         fireBullet() {
@@ -414,15 +450,22 @@
           // You can modify this   based on your game design
           // For simplicity, we'll just create a new centipede for the next level
           // Adjust the speed of existing centipedes (increase the difficulty)
+
+          this.wave = this.wave + 1;
+          // console.log(this.wave);
+          // this.textWave = this.wave;
+          console.log(this.wave, this.textWave);
+
+          this.textWave.setText("Wave: " + this.wave);
           this.centipede.children.iterate((segment) => {
             if (segment.active) {
               const currentSpeed = segment.body.velocity.x;
-              segment.setVelocityX(currentSpeed * 1.1); // Increase the speed by 10% (adjust as needed)
+              segment.setVelocityX(currentSpeed * 1.0); // Increase the speed by 10% (adjust as needed)
             }
           });
 
           this.createCentipede();
-          this.createRandomMushrooms(30);
+          this.createRandomMushrooms(15);
           this.createSpider();
         }
 
@@ -475,10 +518,10 @@
           this.score += 200;
           this.textScore.setText("Score: " + this.score);
           this.textLives.setText("Lives: " + this.lives);
-          console.log(this.score);
+          // console.log(this.score);
           // Call the   to respawn a new spider
         }
-        ///
+
         createRandomMushrooms(count) {
           const mushroomWidth = 30; // Adjust this based on your mushroom image size
           const spacing = mushroomWidth * 1;
@@ -558,6 +601,23 @@
           });
         }
 
+        playerHitSpider(player, spider) {
+          // Handle spider-player collision logic
+          // For example, decrease player health or trigger game over
+          this.score -= 100;
+          this.lives -= 2;
+          this.textLives.setText("Lives: " + this.lives);
+          console.log(this.lives);
+          console.log(this.score);
+          this.mushroomTouchedByPlayerSound.play();
+          spider.y = 0;
+          spider.x = Phaser.Math.Between(50, 750);
+          this.destroySound.play();
+          console.log("touched");
+          // Restart the game if needed
+          // this.restartGame();
+        }
+
         moveSpider() {
           // Simple movement for the spider
           this.spider.y += 2;
@@ -575,36 +635,45 @@
             this.spider.x = Phaser.Math.Between(50, 750);
           }
 
-          // If the spider reaches the screen edge, reverse its direction
-          if (this.spider.x < 50 || this.spider.x > 750) {
-            this.spider.setVelocityX(-this.spider.body.velocity.x);
+          // // If the spider reaches the screen edge, reverse its direction
+          // if (this.spider.x < 50 || this.spider.x > 750) {
+          //   this.spider.setVelocityX(-this.spider.body.velocity.x);
+          // }
+
+          if (this.spider && this.spider.body) {
+            // If the spider reaches the screen edge, reverse its direction
+            if (this.spider.x < 50 || this.spider.x > 750) {
+              // Check if the spider has a velocity before accessing it
+              if (this.spider.body.velocity) {
+                this.spider.setVelocityX(-this.spider.body.velocity.x);
+              }
+            }
           }
+
           // console.log(Phaser.Geom.Intersects.RectangleToRectangle(player.getBounds(), spider.getBounds()));
 
           // Check for collision with the player
-          if (
-            Phaser.Geom.Intersects.RectangleToRectangle(
-              this.player.getBounds(),
-              this.spider.getBounds()
-            )
-          ) {
-            // Handle spider-player collision (you can customize this)
-            // For example, decrease player health or trigger game over
-            this.score -= 100;
-            this.lives -= 2;
-            this.textLives.setText("Lives: " + this.lives);
-            console.log(this.lives);
-            console.log(this.score);
-            this.mushroomTouchedByPlayerSound.play();
-            //   this.textScore.setText('Score: ' + this.score);
-            this.spider.y = 0;
-            this.spider.x = Phaser.Math.Between(50, 750);
-            //restartGame();
-            this.destroySound.play();
-            console.log("touched");
-            // this.scene.start("bootGame");
-            // this.restartGame();
-          }
+          // if (
+          //   Phaser.Geom.Intersects.RectangleToRectangle(
+          //     this.player.getBounds(),
+          //     this.spider.getBounds()
+          //   )
+          // ) {
+          //   // Handle spider-player collision (you can customize this)
+          //   // For example, decrease player health or trigger game over
+          //   this.score -= 100;
+          //   this.lives -= 2;
+          //   this.textLives.setText("Lives: " + this.lives);
+          //   console.log(this.lives);
+          //   console.log(this.score);
+          //   this.mushroomTouchedByPlayerSound.play();
+          //   this.spider.y = 0;
+          //   this.spider.x = Phaser.Math.Between(50, 750);
+          //   //restartGame();
+          //   this.destroySound.play();
+          //   console.log("touched");
+          //   //  this.spider.destroy();
+          // }
         }
 
         createMushroom(x, y) {
@@ -623,6 +692,11 @@
             this.bullets,
             this.spider,
             this.bulletHitSpider.bind(this)
+          );
+          this.physics.add.collider(
+            this.player,
+            this.spider,
+            this.playerHitSpider.bind(this)
           );
         }
       }
